@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portofolio IT Support — rizky">
+<title>rizky — IT Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #1a1d21;
+  --paper: #faf9f7;
+  --accent: #c2410c;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+  --sans: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  color: var(--ink);
+  background: var(--paper);
+  font: 17px/1.6 var(--body);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+img { max-width: 100%; display: block; }
+
+a { color: inherit; }
+a:hover, a:focus { color: var(--accent); }
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+h1, h2 { font-family: var(--sans); font-weight: 600; line-height: 1.15; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); }
+h2 { font-size: clamp(1.35rem, 3.2vw, 1.8rem); margin-top: 56px; }
+p { margin-bottom: 16px; }
+
+header.masthead {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+  border-top: 4px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  padding: 40px 0 32px;
+}
+.masthead .role {
+  font-family: var(--mono);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 12px 0 20px;
+}
+.masthead .kontak-lain { font-family: var(--mono); font-size: 12px; line-height: 2; }
+.masthead .kontak-lain a { text-decoration: none; }
+.grid-kontak { display: block; }
+
+main { padding-top: 8px; }
+
+section { border-bottom: 1px solid var(--ink); padding: 16px 0 8px; }
+section p { max-width: 62ch; }
+
+.grid-dua {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+.sidebar {
+  grid-column: 2;
+  order: 2;
+}
+.sidebar .kotak { border-top: 1px dashed var(--ink); padding-top: 16px; margin-bottom: 32px; }
+
+ul.daftar { list-style: none; }
+ul.daftar li { padding-left: 20px; position: relative; margin-bottom: 8px; }
+ul.daftar li::before { content: "—"; color: var(--accent); position: absolute; left: 0; }
+
+.item {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px dashed var(--ink);
+}
+.item:last-child { border-bottom: 0; margin-bottom: 0; }
+.item .meta {
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.item h3 { font-family: var(--sans); font-size: 1.05rem; margin-bottom: 6px; }
+.item p { font-size: 15px; margin-bottom: 6px; }
+.item .hasil {
+  border-left: 2px solid var(--accent);
+  padding-left: 12px;
+  font-size: 15px;
+}
+.item .hasil::before { content: "Hasil: "; font-family: var(--mono); font-size: 12px; text-transform: uppercase; color: var(--accent); }
+
+.todo { color: #8b8f94; font-family: var(--mono); font-size: 13px; }
+.klaster { font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 0 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 720px) {
+  body { padding: 40px 20px 72px; font-size: 16px; }
+  header.masthead, .grid-dua { grid-template-columns: 1fr; gap: 24px; }
+  .sidebar { grid-column: 1; order: 0; }
+  footer { flex-direction: column; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <h1>rizky</h1>
+    <p class="role">IT Support</p>
+    <p>Terampil menangani perangkat keras, perangkat lunak, dan jaringan untuk memastikan operasional IT berjalan presisi, jelas, dan tepercaya. Masuk ke departemen IT adalah mimpi saya dan saya sedang berupaya mengubahnya menjadi kenyataan.</p>
+  </div>
+  <div class="kontak-lain">
+    <div>DATA 01 — KONTAK</div>
+    <a href="mailto:todo@email.com">todo@email.com</a><br>
+    <a href="https://github.com/todo-username">GitHub</a> ·
+    <a href="https://linkedin.com/in/todo-username">LinkedIn</a><br>
+    <span class="todo">TODO: isi email &amp; tautan proﬁl</span>
+  </div>
+</header>
+
+<main>
+  <div class="grid-dua">
+    <div>
+      <section>
+        <p class="kicker">DATA 01 — RINGKASAN</p>
+        <p>Kandidat IT Support dengan pemahaman praktis sistem operasi, jaringan, dan layanan helpdesk. Membantu pengguna memecahkan masalah teknologi secara cepat, terdokumentasi, dan minim gangguan.</p>
+      </section>
+
+      <section>
+        <p class="kicker">DATA 03 — PENGALAMAN &amp; PROYEK</p>
+        <div class="item">
+          <p class="meta">PROYEK — 2026</p>
+          <h3>Instalasi &amp; Konﬁgurasi Jaringan Kantor Kecil <span class="todo">[TODO]</span></h3>
+          <p>Dikerjakan: menyiapkan titik akses, switch, dan pembagian IP; menjaga konﬁgurasi terdokumentasi.</p>
+          <p class="hasil">Hasil: jaringan lokal stabil dan mudah dirawat.</p>
+        </div>
+        <div class="item">
+          <p class="meta">PENGALAMAN — <span class="todo">[TODO]</span></p>
+          <h3>Peran/posisi <span class="todo">[TODO]</span></h3>
+          <p>Dikerjakan: <span class="todo">[TODO: uraikan pekerjaan]</span></p>
+          <p class="hasil">Hasil: <span class="todo">[TODO: dampak yang terukur]</span></p>
+        </div>
+        <p class="todo">TODO: tambahkan riwayat kerja &amp; proyek aktual.</p>
+      </section>
+
+      <section>
+        <p class="kicker">DATA 04 — SERTIFIKAT &amp; KURSUS</p>
+        <ul class="daftar">
+          <li>Sertifikat/Training <span class="todo">[TODO: nama + tahun]</span></li>
+          <li>Kursus <span class="todo">[TODO: nama platform + topik]</span></li>
+        </ul>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="kotak">
+        <p class="kicker">DATA 02 — KEAHLIAN</p>
+        <p class="klaster">Sistem Operasi</p>
+        <ul class="daftar"><li>Windows, Linux <span class="todo">[TODO]</span></li></ul>
+        <p class="klaster">Jaringan</p>
+        <ul class="daftar"><li>IP addressing, WiFi, DHCP <span class="todo">[TODO]</span></li></ul>
+        <p class="klaster">Helpdesk &amp; Ticketing</p>
+        <ul class="daftar"><li>Dokumentasi, prioritas tiket <span class="todo">[TODO]</span></li></ul>
+        <p class="klaster">Keamanan</p>
+        <ul class="daftar"><li>Dasar keamanan akun &amp; data <span class="todo">[TODO]</span></li></ul>
+        <p class="klaster">Cloud &amp; Tools</p>
+        <ul class="daftar"><li>Google Workspace, remote desktop <span class="todo">[TODO]</span></li></ul>
+      </div>
+
+      <div class="kotak">
+        <p class="kicker">DATA 05 — KONTAK</p>
+        <ul class="daftar">
+          <li><a href="mailto:todo@email.com">todo@email.com</a></li>
+          <li><a href="https://github.com/todo-username">github.com/todo-username</a></li>
+          <li><a href="https://linkedin.com/in/todo-username">linkedin.com/in/todo-username</a></li>
+        </ul>
+        <p class="todo">TODO: ganti dengan tautan asli.</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <span>rizky — IT Support</span>
+  <span>HTML/CSS · tanpa kerangka kerja</span>
+</footer>
+
+</body>
+</html>
