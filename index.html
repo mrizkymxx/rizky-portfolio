@@ -3,43 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portofolio Profesional Muhammad Rizky, S.Kom - IT Support Specialist & Systems Administrator. Pengalaman 4+ tahun dalam infrastruktur IT, troubleshooting hardware, jaringan, dan otomasi operasional.">
-  <title>Muhammad Rizky, S.Kom — IT Support & Systems Administrator</title>
+  <meta name="description" content="Portofolio Resmi Muhammad Rizky, S.Kom - IT Support Specialist & Systems Administrator. Lulusan S1 Sistem Informasi (IPK 3.56 Cum Laude) dengan 4+ tahun pengalaman teknis lapangan.">
+  <title>Muhammad Rizky, S.Kom — IT Support Specialist &amp; Systems Administrator</title>
 
-  <!-- Google Fonts: Manrope (Body & Headings) + JetBrains Mono (Technical Details) -->
+  <!-- Google Fonts: Public Sans (Dirancang khusus untuk keterbacaan tinggi) + JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --bg: #090d16;
-      --bg-surface: #0f172a;
-      --bg-card: #141e33;
-      --bg-card-hover: #1a2742;
-      --bg-subtle: #1e293b;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-subtle: #f1f5f9;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
 
-      --border: #23324d;
-      --border-focus: #3b82f6;
+      --text-main: #0f172a;
+      --text-muted: #334155;
+      --text-light: #64748b;
 
-      --text: #f8fafc;
-      --text-muted: #94a3b8;
-      --text-dim: #64748b;
+      --blue-primary: #1d4ed8;
+      --blue-hover: #1e40af;
+      --blue-subtle: #eff6ff;
+      --blue-border: #bfdbfe;
 
-      --primary: #3b82f6;
-      --primary-hover: #60a5fa;
-      --primary-subtle: rgba(59, 130, 246, 0.12);
+      --emerald-badge: #047857;
+      --emerald-bg: #ecfdf5;
+      --emerald-border: #a7f3d0;
 
-      --success: #10b981;
-      --success-subtle: rgba(16, 185, 129, 0.12);
-
-      --font-main: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-body: 'Public Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       --font-mono: 'JetBrains Mono', monospace;
 
       --radius-sm: 6px;
       --radius-md: 10px;
-      --radius-lg: 16px;
-      --radius-full: 9999px;
+      --radius-lg: 14px;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.03);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.06), 0 2px 4px -2px rgba(0,0,0,0.04);
     }
 
     * {
@@ -48,1138 +48,895 @@
       padding: 0;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
       background-color: var(--bg);
-      color: var(--text);
-      font-family: var(--font-main);
-      line-height: 1.6;
-      font-size: 15px;
+      color: var(--text-main);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
       padding-inline: 20px;
-      padding-block: 0;
+      padding-block: 40px 80px;
     }
 
-    .container {
-      max-width: 1080px;
+    .wrapper {
+      max-width: 980px;
       margin: 0 auto;
-      padding-block: 40px 100px;
     }
 
-    /* Navigation Bar */
-    header.site-header {
+    /* Top Action Bar */
+    .top-action-bar {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 16px;
-      padding: 16px 24px;
-      background: rgba(15, 23, 42, 0.85);
-      backdrop-filter: blur(12px);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      position: sticky;
-      top: 16px;
-      z-index: 50;
-      margin-bottom: 48px;
-    }
-
-    .brand {
-      display: flex;
       align-items: center;
-      gap: 12px;
-      text-decoration: none;
-      color: var(--text);
-    }
-
-    .avatar-initial {
-      width: 40px;
-      height: 40px;
-      border-radius: var(--radius-md);
-      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      font-size: 15px;
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .brand-meta h2 {
-      font-size: 15px;
-      font-weight: 700;
-      line-height: 1.2;
-    }
-
-    .brand-meta p {
-      font-size: 12px;
-      color: var(--text-muted);
-      font-family: var(--font-mono);
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      transition: color 0.15s ease;
-    }
-
-    .nav-links a:hover {
-      color: var(--text);
-    }
-
-    .btn-header-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--primary);
-      color: #fff;
-      padding: 8px 16px;
-      border-radius: var(--radius-full);
-      font-size: 13px;
-      font-weight: 700;
-      text-decoration: none;
-      transition: background 0.15s ease, transform 0.15s ease;
-    }
-
-    .btn-header-cta:hover {
-      background: var(--primary-hover);
-      transform: translateY(-1px);
-    }
-
-    @media (max-width: 768px) {
-      .nav-links {
-        display: none;
-      }
-    }
-
-    /* Hero Section */
-    .hero {
-      display: grid;
-      grid-template-columns: 1.6fr 1fr;
-      gap: 32px;
-      align-items: center;
-      margin-bottom: 64px;
-    }
-
-    @media (max-width: 900px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .badge-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--success-subtle);
-      border: 1px solid rgba(16, 185, 129, 0.3);
-      color: var(--success);
-      padding: 6px 14px;
-      border-radius: var(--radius-full);
-      font-size: 12.5px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
-
-    .status-dot {
-      width: 8px;
-      height: 8px;
-      background: var(--success);
-      border-radius: 50%;
-      outline: 2px solid rgba(16, 185, 129, 0.3);
-    }
-
-    .hero-title {
-      font-size: clamp(32px, 4.5vw, 44px);
-      font-weight: 800;
-      line-height: 1.15;
-      letter-spacing: -0.025em;
-      margin-bottom: 16px;
-      color: #fff;
-    }
-
-    .hero-title .highlight {
-      color: var(--primary-hover);
-    }
-
-    .hero-lead {
-      font-size: 16px;
-      color: var(--text-muted);
-      line-height: 1.7;
-      margin-bottom: 28px;
-      max-width: 580px;
-    }
-
-    .hero-actions {
-      display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      margin-bottom: 32px;
-    }
-
-    .btn-main {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--primary);
-      color: #fff;
-      padding: 12px 24px;
-      border-radius: var(--radius-md);
-      font-size: 14px;
-      font-weight: 700;
-      text-decoration: none;
-      transition: all 0.15s ease;
-      cursor: pointer;
-      border: none;
-    }
-
-    .btn-main:hover {
-      background: var(--primary-hover);
-      transform: translateY(-1px);
-    }
-
-    .btn-outline {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--bg-surface);
-      color: var(--text);
-      border: 1px solid var(--border);
-      padding: 12px 20px;
-      border-radius: var(--radius-md);
-      font-size: 14px;
-      font-weight: 600;
-      text-decoration: none;
-      transition: all 0.15s ease;
-    }
-
-    .btn-outline:hover {
-      background: var(--bg-card);
-      border-color: var(--text-muted);
-    }
-
-    /* Hero Summary Card */
-    .hero-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 28px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    }
-
-    .hero-card-header {
-      padding-bottom: 16px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .hero-card-header h3 {
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 4px;
-    }
-
-    .hero-card-header p {
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-
-    .card-meta-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .card-meta-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 13.5px;
-    }
-
-    .card-meta-label {
-      color: var(--text-dim);
-    }
-
-    .card-meta-value {
-      font-weight: 600;
-      color: var(--text);
-      text-align: right;
-    }
-
-    .pill-value {
-      background: var(--primary-subtle);
-      color: var(--primary-hover);
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-      font-family: var(--font-mono);
-      font-size: 12px;
-      font-weight: 600;
-    }
-
-    /* Section Styling */
-    section {
-      margin-bottom: 72px;
-    }
-
-    .section-header {
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      margin-bottom: 32px;
-    }
-
-    .section-kicker {
-      font-family: var(--font-mono);
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--primary);
-    }
-
-    .section-title {
-      font-size: 26px;
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      color: #fff;
-    }
-
-    .section-desc {
-      color: var(--text-muted);
-      font-size: 15px;
-      max-width: 680px;
-    }
-
-    /* Core Skills Grid */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-      gap: 20px;
-    }
-
-    .skill-box {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 24px;
-      transition: all 0.2s ease;
-    }
-
-    .skill-box:hover {
-      border-color: var(--border-focus);
-      background: var(--bg-card);
-      transform: translateY(-2px);
-    }
-
-    .skill-box-title {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-
-    .skill-box-title span.icon {
-      font-size: 18px;
-    }
-
-    .skill-box-body {
-      font-size: 13.5px;
-      color: var(--text-muted);
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
-
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .skill-tag {
-      background: var(--bg-subtle);
-      color: var(--text);
-      font-size: 11.5px;
-      font-weight: 500;
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-      border: 1px solid rgba(255, 255, 255, 0.04);
-    }
-
-    /* Experience Timeline */
-    .experience-list {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    .experience-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-md);
-      padding: 28px;
-      display: grid;
-      grid-template-columns: 240px 1fr;
-      gap: 28px;
-      transition: border-color 0.2s ease;
-    }
-
-    @media (max-width: 800px) {
-      .experience-card {
-        grid-template-columns: 1fr;
-        gap: 16px;
-      }
-    }
-
-    .experience-card:hover {
-      border-color: var(--border-focus);
-    }
-
-    .exp-period {
-      font-family: var(--font-mono);
-      font-size: 12.5px;
-      color: var(--text-dim);
-      margin-bottom: 6px;
-    }
-
-    .exp-company {
-      font-size: 16px;
-      font-weight: 700;
-      color: #fff;
-      line-height: 1.3;
-      margin-bottom: 4px;
-    }
-
-    .exp-location {
-      font-size: 13px;
-      color: var(--text-muted);
-    }
-
-    .exp-role-title {
-      font-size: 18px;
-      font-weight: 800;
-      color: var(--primary-hover);
-      margin-bottom: 12px;
-      line-height: 1.3;
-    }
-
-    .exp-details {
-      list-style: none;
-      font-size: 14px;
-      color: var(--text-muted);
-      line-height: 1.65;
-    }
-
-    .exp-details li {
-      position: relative;
-      padding-left: 20px;
-      margin-bottom: 10px;
-    }
-
-    .exp-details li::before {
-      content: "•";
-      position: absolute;
-      left: 6px;
-      color: var(--primary);
-      font-weight: bold;
-    }
-
-    /* Projects Grid */
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 24px;
-    }
-
-    .project-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 28px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: all 0.2s ease;
-    }
-
-    .project-card:hover {
-      border-color: var(--border-focus);
-      transform: translateY(-2px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
-    }
-
-    .project-kicker {
-      font-family: var(--font-mono);
-      font-size: 11.5px;
-      font-weight: 600;
-      color: var(--success);
-      text-transform: uppercase;
-      margin-bottom: 8px;
-      letter-spacing: 0.05em;
-    }
-
-    .project-title {
-      font-size: 20px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-
-    .project-desc {
-      font-size: 14px;
-      color: var(--text-muted);
-      line-height: 1.65;
-      margin-bottom: 20px;
-      flex-grow: 1;
-    }
-
-    .project-tech {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
       margin-bottom: 24px;
     }
 
-    .project-tech span {
-      background: var(--bg-subtle);
-      color: var(--text);
-      font-size: 12px;
-      font-family: var(--font-mono);
-      padding: 4px 8px;
-      border-radius: var(--radius-sm);
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--emerald-bg);
+      color: var(--emerald-badge);
+      border: 1px solid var(--emerald-border);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13.5px;
+      font-weight: 700;
     }
 
-    .project-link {
+    .status-badge::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: var(--emerald-badge);
+      border-radius: 50%;
+    }
+
+    .btn-print {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      color: var(--primary-hover);
-      text-decoration: none;
-      font-weight: 700;
+      background: var(--surface);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
       font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.15s ease;
     }
 
-    .project-link:hover {
+    .btn-print:hover {
+      background: var(--surface-subtle);
+      color: var(--text-main);
+      border-color: var(--border-dark);
+    }
+
+    /* Main Resume Sheet Container */
+    .resume-sheet {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 48px;
+      box-shadow: var(--shadow-md);
+    }
+
+    @media (max-width: 680px) {
+      .resume-sheet {
+        padding: 24px;
+      }
+    }
+
+    /* Header Profile */
+    .profile-header {
+      border-bottom: 2px solid var(--text-main);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+
+    .name-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .name-title h1 {
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .name-title .role-tag {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--blue-primary);
+      background: var(--blue-subtle);
+      border: 1px solid var(--blue-border);
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+    }
+
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px 24px;
+      font-size: 14.5px;
+      color: var(--text-muted);
+      margin-top: 14px;
+    }
+
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-item a {
+      color: var(--blue-primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-item a:hover {
       text-decoration: underline;
     }
 
-    /* Education & Certs Row */
-    .credentials-grid {
+    /* Quick Value Metrics */
+    .metrics-row {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
     }
 
-    @media (max-width: 768px) {
-      .credentials-grid {
+    .metric-card {
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+    }
+
+    .metric-card .val {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--text-main);
+      line-height: 1.2;
+      margin-bottom: 4px;
+    }
+
+    .metric-card .desc {
+      font-size: 13.5px;
+      color: var(--text-light);
+      font-weight: 500;
+    }
+
+    /* Content Section Titles */
+    .section {
+      margin-bottom: 36px;
+    }
+
+    .section-heading {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--text-main);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1.5px solid var(--border-dark);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-heading .bar {
+      width: 4px;
+      height: 18px;
+      background: var(--blue-primary);
+      border-radius: 2px;
+    }
+
+    .lead-text {
+      font-size: 16px;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 20px;
+    }
+
+    /* Skills Grid */
+    .skills-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+
+    .skill-block {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .skill-block h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .skill-block ul {
+      list-style-type: none;
+      font-size: 14.5px;
+      color: var(--text-muted);
+    }
+
+    .skill-block li {
+      position: relative;
+      padding-left: 18px;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .skill-block li::before {
+      content: "•";
+      position: absolute;
+      left: 4px;
+      color: var(--blue-primary);
+      font-weight: bold;
+    }
+
+    /* Experience Items */
+    .exp-item {
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px dashed var(--border-dark);
+    }
+
+    .exp-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .exp-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .exp-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .exp-date {
+      font-family: var(--font-mono);
+      font-size: 13.5px;
+      color: var(--text-light);
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+    }
+
+    .exp-company {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--blue-primary);
+      margin-bottom: 12px;
+    }
+
+    .exp-bullets {
+      list-style-type: none;
+      font-size: 15px;
+      color: var(--text-muted);
+    }
+
+    .exp-bullets li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .exp-bullets li::before {
+      content: "—";
+      position: absolute;
+      left: 2px;
+      color: var(--text-light);
+    }
+
+    /* Projects Grid */
+    .projects-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    @media (max-width: 720px) {
+      .projects-list {
         grid-template-columns: 1fr;
       }
     }
 
-    .credential-box {
-      background: var(--bg-surface);
+    .project-card {
       border: 1px solid var(--border);
       border-radius: var(--radius-md);
-      padding: 28px;
+      padding: 20px;
+      background: var(--surface);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
     }
 
-    .credential-box h3 {
-      font-size: 17px;
+    .project-card h3 {
+      font-size: 16.5px;
       font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-
-    .edu-title {
-      font-size: 17px;
-      font-weight: 700;
-      color: var(--text);
+      color: var(--text-main);
       margin-bottom: 4px;
     }
 
-    .edu-campus {
-      font-size: 14px;
-      color: var(--primary-hover);
-      margin-bottom: 8px;
+    .project-type {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--blue-primary);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
     }
 
-    .edu-badge {
-      display: inline-block;
-      background: var(--success-subtle);
-      color: var(--success);
-      border: 1px solid rgba(16, 185, 129, 0.25);
-      font-size: 12px;
-      font-weight: 700;
-      padding: 3px 10px;
-      border-radius: var(--radius-full);
+    .project-summary {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 14px;
+      flex-grow: 1;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
       margin-bottom: 14px;
     }
 
-    .credential-list {
-      list-style: none;
-      font-size: 13.5px;
-      color: var(--text-muted);
-      line-height: 1.7;
-    }
-
-    .credential-list li {
-      position: relative;
-      padding-left: 18px;
-      margin-bottom: 8px;
-    }
-
-    .credential-list li::before {
-      content: "✓";
-      position: absolute;
-      left: 0;
-      color: var(--success);
-      font-weight: bold;
-    }
-
-    /* Contact Banner */
-    .contact-banner {
-      background: linear-gradient(180deg, var(--bg-surface), #0b1324);
+    .project-tag {
+      background: var(--surface-subtle);
+      color: var(--text-main);
       border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 48px 32px;
+      font-size: 11.5px;
+      font-family: var(--font-mono);
+      padding: 3px 6px;
+      border-radius: var(--radius-sm);
+    }
+
+    .project-link-btn {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--blue-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .project-link-btn:hover {
+      text-decoration: underline;
+    }
+
+    /* Education Box */
+    .edu-sheet {
+      background: var(--surface-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px 24px;
+    }
+
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .edu-degree {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .edu-gpa {
+      background: var(--emerald-bg);
+      color: var(--emerald-badge);
+      border: 1px solid var(--emerald-border);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 9999px;
+    }
+
+    .edu-school {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--blue-primary);
+      margin-bottom: 10px;
+    }
+
+    .edu-desc {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    /* Action Footer Box */
+    .cta-footer-box {
+      margin-top: 36px;
+      background: #1e293b;
+      color: #ffffff;
+      padding: 32px;
+      border-radius: var(--radius-md);
       text-align: center;
     }
 
-    .contact-banner h2 {
-      font-size: 26px;
+    .cta-footer-box h2 {
+      font-size: 22px;
       font-weight: 800;
-      color: #fff;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
-    .contact-banner p {
+    .cta-footer-box p {
       font-size: 15px;
-      color: var(--text-muted);
-      max-width: 580px;
-      margin: 0 auto 32px;
+      color: #cbd5e1;
+      max-width: 600px;
+      margin: 0 auto 24px;
+      line-height: 1.6;
     }
 
-    .contact-methods {
+    .cta-button-group {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 16px;
-      margin-bottom: 24px;
+      gap: 12px;
     }
 
-    .contact-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      color: var(--text);
+    .btn-action-primary {
+      background: var(--blue-primary);
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
       text-decoration: none;
-      padding: 10px 18px;
-      border-radius: var(--radius-md);
-      font-size: 13.5px;
-      font-weight: 600;
-      transition: all 0.15s ease;
+      font-size: 14.5px;
+      font-weight: 700;
+      transition: background 0.15s ease;
+      border: none;
       cursor: pointer;
     }
 
-    .contact-chip:hover {
-      border-color: var(--primary);
-      color: var(--primary-hover);
-      transform: translateY(-1px);
+    .btn-action-primary:hover {
+      background: var(--blue-hover);
     }
 
-    footer.site-footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 13px;
-      color: var(--text-dim);
+    .btn-action-secondary {
+      background: #334155;
+      color: #ffffff;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      font-size: 14.5px;
+      font-weight: 600;
+      border: 1px solid #475569;
     }
 
-    .toast-notice {
+    .btn-action-secondary:hover {
+      background: #475569;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: #ffffff;
+        color: #000000;
+        padding: 0;
+        font-size: 12pt;
+      }
+      .top-action-bar, .cta-footer-box {
+        display: none !important;
+      }
+      .resume-sheet {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+      }
+      .metric-card, .skill-block, .project-card, .edu-sheet {
+        border: 1px solid #cccccc;
+      }
+    }
+
+    /* Toast */
+    .toast-popup {
       position: fixed;
       bottom: 24px;
       right: 24px;
-      background: var(--primary);
-      color: #fff;
-      font-size: 13px;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: var(--radius-md);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      background: #0f172a;
+      color: #ffffff;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
       display: none;
-      z-index: 100;
+      z-index: 999;
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
+  <div class="wrapper">
 
-    <!-- Header Navigation -->
-    <header class="site-header">
-      <a href="#" class="brand">
-        <div class="avatar-initial">MR</div>
-        <div class="brand-meta">
-          <h2>Muhammad Rizky, S.Kom</h2>
-          <p>IT Support &amp; Systems Administrator</p>
-        </div>
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#keahlian">Keahlian</a></li>
-        <li><a href="#pengalaman">Pengalaman</a></li>
-        <li><a href="#proyek">Proyek Sistem</a></li>
-        <li><a href="#pendidikan">Pendidikan</a></li>
-      </ul>
-
-      <a href="#kontak" class="btn-header-cta">
-        Hubungi Saya ✉
-      </a>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- Top Action Bar -->
+    <div class="top-action-bar">
+      <div class="status-badge">
+        Siap Bergabung Segera (Jepara / Semarang / On-site / Remote)
+      </div>
       <div>
-        <div class="badge-status">
-          <span class="status-dot"></span>
-          Tersedia untuk Kerja (On-site / Relokasi / Remote)
+        <button class="btn-print" onclick="window.print()">
+          🖨️ Cetak / Simpan PDF
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Sheet -->
+    <main class="resume-sheet">
+
+      <!-- Header Profile -->
+      <header class="profile-header">
+        <div class="name-title">
+          <div>
+            <h1>Muhammad Rizky, S.Kom</h1>
+            <p style="font-size: 17px; color: var(--text-light); margin-top: 4px; font-weight: 500;">
+              Spesialis IT Support, Perawatan Hardware PC, Jaringan &amp; Sistem Operasional
+            </p>
+          </div>
+          <div class="role-tag">
+            IT Support Specialist
+          </div>
         </div>
 
-        <h1 class="hero-title">
-          Menjaga Infrastruktur IT Kantor &amp; Pabrik Tetap <span class="highlight">Aktif Tanpa Gangguan.</span>
-        </h1>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span>📍</span>
+            <span>Jepara &amp; Semarang, Jawa Tengah</span>
+          </div>
+          <div class="contact-item">
+            <span>✉️</span>
+            <a href="mailto:mrizkymxx@gmail.com">mrizkymxx@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span>💼</span>
+            <a href="https://linkedin.com/in/mrizkymxx" target="_blank" rel="noreferrer">linkedin.com/in/mrizkymxx</a>
+          </div>
+          <div class="contact-item">
+            <span>🐙</span>
+            <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer">github.com/mrizkymxx</a>
+          </div>
+          <div class="contact-item">
+            <span>🌐</span>
+            <a href="https://muhammadrizky.dev" target="_blank" rel="noreferrer">muhammadrizky.dev</a>
+          </div>
+        </div>
+      </header>
 
-        <p class="hero-lead">
-          Lulusan Sarjana Sistem Informasi (IPK 3.56 Cum Laude) dengan 4+ tahun pengalaman operasional lapangan. Ahli menangani troubleshooting hardware komputer, stabilisasi jaringan LAN/WLAN, sistem kasir/kiosk industri (ESC/POS), dan otomasi administrasi menggunakan PowerShell.
+      <!-- Key Metrics Row -->
+      <div class="metrics-row">
+        <div class="metric-card">
+          <div class="val">S1 Sistem Informasi</div>
+          <div class="desc">IPK 3.56 / 4.00 (Cum Laude)</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">4+ Tahun</div>
+          <div class="desc">Pengalaman Lapangan &amp; Operasional</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">Hardware &amp; LAN</div>
+          <div class="desc">Troubleshooting PC, Mikrotik &amp; POS</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">Otomasi Skrip</div>
+          <div class="desc">PowerShell, SQL &amp; Sistem Internal</div>
+        </div>
+      </div>
+
+      <!-- Ringkasan Profil -->
+      <section class="section">
+        <h2 class="section-heading">
+          <span class="bar"></span>
+          Ringkasan Profesional
+        </h2>
+        <p class="lead-text">
+          Sarjana Sistem Informasi dengan 4+ tahun pengalaman teknis menangani operasional harian kantor dan lantai pabrik. Menguasai diagnosa kerusakan perangkat keras komputer, perakitan PC, instalasi kabel jaringan LAN (crimping RJ45), konfigurasi router Mikrotik, hingga perawatan printer thermal nota (POS) dan barcode scanner. Memiliki nilai tambah mampu membuat skrip otomasi (PowerShell) dan mengelola database SQL untuk mempercepat alur kerja perusahaan.
         </p>
+      </section>
 
-        <div class="hero-actions">
-          <a href="mailto:mrizkymxx@gmail.com" class="btn-main">
-            Kirim Tawaran Kerja
-          </a>
-          <button class="btn-outline" onclick="copyValue('mrizkymxx@gmail.com', 'Email berhasil disalin!')">
-            📋 Salin Email
-          </button>
-          <a href="https://linkedin.com/in/mrizkymxx" target="_blank" rel="noreferrer" class="btn-outline">
-            LinkedIn ↗
-          </a>
-          <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer" class="btn-outline">
-            GitHub ↗
-          </a>
-        </div>
-      </div>
+      <!-- Keahlian Teknis IT Support -->
+      <section class="section">
+        <h2 class="section-heading">
+          <span class="bar"></span>
+          Keahlian Teknis IT Support
+        </h2>
+        <div class="skills-container">
 
-      <!-- Hero Card Profile Data -->
-      <div class="hero-card">
-        <div class="hero-card-header">
-          <h3>Ringkasan Profil Kandidat</h3>
-          <p>Data terverifikasi LinkedIn &amp; Riwayat Lapangan</p>
-        </div>
-
-        <div class="card-meta-list">
-          <div class="card-meta-item">
-            <span class="card-meta-label">Nama Lengkap</span>
-            <span class="card-meta-value">Muhammad Rizky</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Pendidikan</span>
-            <span class="card-meta-value">S1 Sistem Informasi (S.Kom)</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Predikat</span>
-            <span class="card-meta-value pill-value">IPK 3.56 / 4.00 (Cum Laude)</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Lokasi Domisili</span>
-            <span class="card-meta-value">Jepara / Semarang, Jawa Tengah</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Kesiapan Kerja</span>
-            <span class="card-meta-value" style="color: var(--success); font-weight: 700;">Segera (Siap Ditempatkan)</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Target Posisi</span>
-            <span class="card-meta-value">IT Support, Helpdesk, SysAdmin</span>
-          </div>
-          <div class="card-meta-item">
-            <span class="card-meta-label">Nilai Tambah</span>
-            <span class="card-meta-value">Bisa Custom Software &amp; Otomasi</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Core Skills Section -->
-    <section id="keahlian">
-      <div class="section-header">
-        <span class="section-kicker">Kemampuan Teknis</span>
-        <h2 class="section-title">Kompetensi Utama IT Support &amp; Operasional</h2>
-        <p class="section-desc">Kombinasi kemampuan penanganan fisik perangkat keras, keandalan jaringan, dan otomasi sistem kerja.</p>
-      </div>
-
-      <div class="skills-grid">
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">🖥️</span>
-            Hardware &amp; Endpoint PC
-          </div>
-          <p class="skill-box-body">
-            Perakitan PC, diagnosa kerusakan komponen (RAM, SSD/HDD SMART health, PSU), penggantian thermal paste, kloning sistem operasi, dan penanganan Blue Screen (BSOD).
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">Perakitan PC</span>
-            <span class="skill-tag">SMART Storage</span>
-            <span class="skill-tag">Thermal Mgt</span>
-            <span class="skill-tag">Windows 10/11</span>
-            <span class="skill-tag">Debian Linux</span>
-          </div>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">🌐</span>
-            Jaringan &amp; Konektivitas
-          </div>
-          <p class="skill-box-body">
-            Instalasi kabel LAN Cat5e/Cat6 (crimping T568B), konfigurasi router Mikrotik/TP-Link, pembagian IP Static &amp; DHCP, pemisahan VLAN kantor vs publik, dan analisa paket Wireshark.
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">TCP/IP</span>
-            <span class="skill-tag">Crimping RJ45</span>
-            <span class="skill-tag">Mikrotik</span>
-            <span class="skill-tag">VLAN 802.1Q</span>
-            <span class="skill-tag">DNS/DHCP</span>
-          </div>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">🖨️</span>
-            Perangkat Kasir &amp; Industri (POS)
-          </div>
-          <p class="skill-box-body">
-            Konfigurasi dan pemeliharaan printer thermal nota (ESC/POS protocol, auto-cutter hex), barcode scanner USB/RS-232, dan monitor touchscreen kiosk untuk lingkungan pabrik.
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">Printer Thermal</span>
-            <span class="skill-tag">ESC/POS</span>
-            <span class="skill-tag">Barcode Scanner</span>
-            <span class="skill-tag">Kiosk Touchscreen</span>
-            <span class="skill-tag">Spooler Fix</span>
-          </div>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">⚡</span>
-            Otomasi Skrip &amp; Database
-          </div>
-          <p class="skill-box-body">
-            Pembuatan skrip PowerShell untuk maintenance otomatis: pembersihan print spooler macet, reset cache DNS, query log kesalahan Windows (Event Viewer), dan query data SQL.
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">PowerShell 7</span>
-            <span class="skill-tag">Batch Script</span>
-            <span class="skill-tag">SQL Query</span>
-            <span class="skill-tag">Event Log</span>
-            <span class="skill-tag">PostgreSQL</span>
-          </div>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">🏢</span>
-            Sistem ERP &amp; Akun Kantor
-          </div>
-          <p class="skill-box-body">
-            Instalasi dan pemeliharaan software manajemen internal (Odoo, ERPNext di VPS Linux), hak akses pengguna, manajemen Google Workspace / Microsoft 365, dan remote support (AnyDesk/TeamViewer).
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">Odoo ERP</span>
-            <span class="skill-tag">ERPNext</span>
-            <span class="skill-tag">Google Workspace</span>
-            <span class="skill-tag">Remote Desktop</span>
-            <span class="skill-tag">Backup Data</span>
-          </div>
-        </div>
-
-        <div class="skill-box">
-          <div class="skill-box-title">
-            <span class="icon">🤝</span>
-            Layanan Pengguna &amp; ITSM
-          </div>
-          <p class="skill-box-body">
-            Komunikasi ramah dan sabar membantu staf non-teknis, pembuatan buku panduan operasional (SOP/Runbook), dokumentasi inventaris aset PC kantor, dan kepatuhan SLA.
-          </p>
-          <div class="skill-tags">
-            <span class="skill-tag">Helpdesk L1/L2</span>
-            <span class="skill-tag">SOP Runbook</span>
-            <span class="skill-tag">Inventaris Aset</span>
-            <span class="skill-tag">Troubleshooting Root-Cause</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work Experience Section -->
-    <section id="pengalaman">
-      <div class="section-header">
-        <span class="section-kicker">Riwayat Kerja Lapangan</span>
-        <h2 class="section-title">Pengalaman Profesional di Perusahaan</h2>
-        <p class="section-desc">Rekam jejak menangani operasional harian, perangkat pabrik, dan sistem komputer di dunia kerja nyata.</p>
-      </div>
-
-      <div class="experience-list">
-        <!-- Role 1 -->
-        <div class="experience-card">
-          <div>
-            <div class="exp-period">Mei 2024 — Sekarang</div>
-            <div class="exp-company">PT Quark Quality Pack</div>
-            <div class="exp-location">Semarang, Jawa Tengah</div>
-          </div>
-          <div>
-            <div class="exp-role-title">Production Planning, Material Control &amp; Systems Support</div>
-            <ul class="exp-details">
-              <li>Memastikan workstation komputer kantor, printer jaringan, dan timbangan digital berjalan tanpa kendala teknis setiap pergantian shift produksi.</li>
-              <li>Menangani tiket harian dukungan teknis staf kantor: error Windows, hak akses folder share jaringan, dan masalah koneksi software perusahaan.</li>
-              <li>Membuat query SQL dan format otomasi laporan persediaan bahan baku, memangkas waktu rekonsiliasi data manual hingga 35%.</li>
+          <div class="skill-block">
+            <h3>🖥️ Hardware &amp; Sistem Operasi</h3>
+            <ul>
+              <li>Perakitan PC &amp; penggantian komponen (RAM, SSD, PSU).</li>
+              <li>Diagnosa kesehatan harddisk/SSD via SMART status.</li>
+              <li>Instalasi, lisensi, &amp; perbaikan error Windows 10/11 Pro.</li>
+              <li>Penanganan Blue Screen (BSOD) &amp; analisis driver.</li>
+              <li>Dasar administrasi Linux headless (Ubuntu/Debian).</li>
             </ul>
           </div>
-        </div>
 
-        <!-- Role 2 -->
-        <div class="experience-card">
-          <div>
-            <div class="exp-period">Mei 2023 — Mei 2024</div>
-            <div class="exp-company">PT Bintang Sukses Mulia</div>
-            <div class="exp-location">Jepara, Jawa Tengah</div>
-          </div>
-          <div>
-            <div class="exp-role-title">Head of Procurement &amp; IT Project Lead</div>
-            <ul class="exp-details">
-              <li>Merancang dan mengimplementasikan sistem manajemen produksi pabrik karton (BSMCartonBox) langsung pada terminal layar sentuh lantai produksi, menggantikan pencatatan kertas manual.</li>
-              <li>Menangani kendala teknis perangkat keras di area pabrik: barcode scanner USB yang sering freeze karena fluktuasi voltase mesin pabrik dan interferensi gelombang elektromagnetik (EMI).</li>
-              <li>Bertanggung jawab atas evaluasi spesifikasi dan pengadaan perangkat keras IT (PC kantor, penggantian switch/router, dan pemasangan kabel jaringan).</li>
+          <div class="skill-block">
+            <h3>🌐 Jaringan &amp; Konektivitas</h3>
+            <ul>
+              <li>Kabel LAN: Crimping RJ45 Cat5e/Cat6 (standar T568B).</li>
+              <li>Konfigurasi router Mikrotik &amp; Access Point (Wi-Fi).</li>
+              <li>Pengaturan alamat IP (Static IP, DHCP Reservation).</li>
+              <li>Pemisahan jaringan kantor dan tamu via VLAN (802.1Q).</li>
+              <li>Troubleshooting koneksi: Ping, Tracert, &amp; Wireshark.</li>
             </ul>
           </div>
-        </div>
 
-        <!-- Role 3 -->
-        <div class="experience-card">
-          <div>
-            <div class="exp-period">2022 — 2023</div>
-            <div class="exp-company">Apta Living</div>
-            <div class="exp-location">Jepara, Jawa Tengah</div>
-          </div>
-          <div>
-            <div class="exp-role-title">Purchasing &amp; Systems Coordinator</div>
-            <ul class="exp-details">
-              <li>Memberikan dukungan teknis on-site untuk komputer kerja staf administrasi (pembersihan virus, instalasi ulang Windows, setting email kantor).</li>
-              <li>Memperbaiki konektivitas jaringan kantor (LAN/Wi-Fi), mengatasi tabrakan alamat IP (IP conflict) pada router, dan melakukan terminasi ulang kabel jaringan yang rusak.</li>
-              <li>Menerapkan prosedur rutin backup berkala untuk dokumen tender dan arsip kontrak pengadaan vendor.</li>
+          <div class="skill-block">
+            <h3>🖨️ Printer &amp; Perangkat Industri (POS)</h3>
+            <ul>
+              <li>Perawatan printer thermal nota kasir (ESC/POS protocol).</li>
+              <li>Mengatasi antrean print macet (Print Spooler lock).</li>
+              <li>Setup barcode scanner industri (USB &amp; RS-232 serial).</li>
+              <li>Pemeliharaan monitor touchscreen kiosk mandiri di pabrik.</li>
+              <li>Konfigurasi timbangan digital &amp; printer label barcode.</li>
             </ul>
           </div>
-        </div>
 
-        <!-- Role 4 -->
-        <div class="experience-card">
-          <div>
-            <div class="exp-period">Juli 2021 — Juli 2024</div>
-            <div class="exp-company">Teak Take</div>
-            <div class="exp-location">Jepara, Jawa Tengah</div>
-          </div>
-          <div>
-            <div class="exp-role-title">Logistics &amp; Inventory Systems Officer</div>
-            <ul class="exp-details">
-              <li>Mengoperasikan dan merawat software pencatatan kontainer ekspor-impor dan dokumen legalitas stuffing (EximPro).</li>
-              <li>Merawat hardware PC kantor: upgrade RAM, kloning harddisk ke SSD untuk meningkatkan kecepatan operasional, dan pembersihan fisik debu komputer.</li>
-              <li>Mengelola printer barcode label kemasan dan printer dokumen, menyelesaikan antrean cetak yang macet (spooler lock) tanpa perlu instalasi ulang berulang.</li>
+          <div class="skill-block">
+            <h3>⚡ Otomasi, Akun &amp; Software Kantor</h3>
+            <ul>
+              <li>Skrip otomasi PowerShell 7 &amp; Windows Batch script.</li>
+              <li>Query database SQL / PostgreSQL untuk laporan persediaan.</li>
+              <li>Administrasi akun Google Workspace &amp; Microsoft 365.</li>
+              <li>Dukungan jarak jauh (Remote Support via AnyDesk/TeamViewer).</li>
+              <li>Implementasi &amp; backup server ERP Open Source (Odoo).</li>
             </ul>
           </div>
+
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Real Systems Projects Section -->
-    <section id="proyek">
-      <div class="section-header">
-        <span class="section-kicker">Proyek Nyata di GitHub</span>
-        <h2 class="section-title">Sistem &amp; Aplikasi yang Terbukti Berjalan</h2>
-        <p class="section-desc">Bukti kemampuan membangun dan mengelola sistem yang langsung memecahkan masalah operasional perusahaan.</p>
-      </div>
+      <!-- Riwayat Pekerjaan -->
+      <section class="section">
+        <h2 class="section-heading">
+          <span class="bar"></span>
+          Pengalaman Kerja Profesional
+        </h2>
 
-      <div class="projects-grid">
-        <!-- Project 1 -->
-        <div class="project-card">
-          <div>
-            <div class="project-kicker">Sistem Operasional Pabrik &amp; Kiosk</div>
-            <div class="project-title">BSMCartonBox</div>
-            <p class="project-desc">
-              Sistem pencatatan produksi dan pelacakan barang untuk pabrik karton. Dilengkapi mekanisme antrean offline (IndexedDB) agar mesin tetap dapat mencatat data meskipun sinyal Wi-Fi di lantai pabrik terputus saat mesin corrugator berjalan.
-            </p>
-            <div class="project-tech">
-              <span>Next.js</span>
-              <span>Firestore</span>
-              <span>PWA Offline</span>
-              <span>Barcode Scanner</span>
-            </div>
+        <!-- PT Quark Quality Pack -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="exp-title">Production Planning, Material Control &amp; Systems Support</div>
+            <div class="exp-date">Mei 2024 — Sekarang</div>
           </div>
-          <a href="https://github.com/mrizkymxx/bmscartonbox" target="_blank" rel="noreferrer" class="project-link">
-            Lihat Kode di GitHub ↗
-          </a>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="project-card">
-          <div>
-            <div class="project-kicker">Hardware Kiosk &amp; Tiket Realtime</div>
-            <div class="project-title">Q-Premium Queue</div>
-            <p class="project-desc">
-              Kiosk antrean mandiri fisik dengan pemotong tiket otomatis dan sinkronisasi HP warga tanpa perlu unduh aplikasi. Berkomunikasi langsung dengan hardware printer thermal via port serial menggunakan format kode perintah ESC/POS.
-            </p>
-            <div class="project-tech">
-              <span>Flutter</span>
-              <span>Supabase Realtime</span>
-              <span>Printer ESC/POS</span>
-              <span>Port Serial</span>
-            </div>
-          </div>
-          <a href="https://github.com/mrizkymxx/q-premium-queue" target="_blank" rel="noreferrer" class="project-link">
-            Lihat Kode di GitHub ↗
-          </a>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project-card">
-          <div>
-            <div class="project-kicker">Aplikasi Pelayanan Publik</div>
-            <div class="project-title">Lapor Desa Rau</div>
-            <p class="project-desc">
-              Platform pelaporan aduan infrastruktur warga desa dengan validasi koordinat GPS menggunakan PostGIS. Berhasil mengompresi ukuran foto laporan dari 6MB menjadi 350KB agar warga dengan sinyal 3G tetap dapat mengirim laporan dengan lancar.
-            </p>
-            <div class="project-tech">
-              <span>PostgreSQL</span>
-              <span>PostGIS (Geofence)</span>
-              <span>Next.js</span>
-              <span>Leaflet Map</span>
-            </div>
-          </div>
-          <a href="https://github.com/mrizkymxx/lapor-desa-rau" target="_blank" rel="noreferrer" class="project-link">
-            Lihat Kode di GitHub ↗
-          </a>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="project-card">
-          <div>
-            <div class="project-kicker">Toolkit Otomasi SysAdmin</div>
-            <div class="project-title">IT Automation &amp; Diagnostics</div>
-            <p class="project-desc">
-              Kumpulan skrip PowerShell 7+ untuk perawatan PC otomatis: instalasi software tanpa dialog (silent winget), audit kesehatan harddisk (SMART), pembersihan antrean cetak macet, dan pengecekan log error sistem Windows.
-            </p>
-            <div class="project-tech">
-              <span>PowerShell 7</span>
-              <span>WMI/CIM</span>
-              <span>Batch Script</span>
-              <span>Sysinternals</span>
-            </div>
-          </div>
-          <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer" class="project-link">
-            Lihat Repositori ↗
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="pendidikan">
-      <div class="section-header">
-        <span class="section-kicker">Kualifikasi Formal</span>
-        <h2 class="section-title">Pendidikan &amp; Pelatihan Terverifikasi</h2>
-      </div>
-
-      <div class="credentials-grid">
-        <div class="credential-box">
-          <h3>Pendidikan Akademik</h3>
-          <div class="edu-title">Sarjana Sistem Informasi (S.Kom.)</div>
-          <div class="edu-campus">Universitas Islam Nahdlatul Ulama Jepara (UNISNU)</div>
-          <div class="edu-badge">IPK: 3.56 / 4.00 (Cum Laude)</div>
-          <p style="font-size: 14px; color: var(--text-muted); line-height: 1.6;">
-            Fokus kurikulum: Jaringan Komputer, Sistem Operasi, Arsitektur Database (SQL), Analisis &amp; Desain Sistem Informasi, Keamanan Informasi, dan Sistem Manajemen Bisnis (ERP).
-          </p>
-        </div>
-
-        <div class="credential-box">
-          <h3>Pelatihan &amp; Fokus Mandiri</h3>
-          <ul class="credential-list">
-            <li>Sertifikasi SQL Relational Database &amp; Data Analysis.</li>
-            <li>Implementasi &amp; Administrasi Server ERP Open Source (Odoo &amp; ERPNext).</li>
-            <li>Administrasi Jaringan Dasar (Subnetting IPv4, Routing, DNS, DHCP).</li>
-            <li>Otomasi Administrasi Sistem Berbasis PowerShell &amp; Bash Shell.</li>
+          <div class="exp-company">PT Quark Quality Pack • Semarang, Jawa Tengah</div>
+          <ul class="exp-bullets">
+            <li>Menjamin keandalan operasional seluruh PC kantor, printer jaringan, dan periferal timbangan digital agar tidak mengganggu pergantian shift kerja pabrik.</li>
+            <li>Menangani tiket bantuan teknis harian bagi staf administrasi: perbaikan error sistem Windows, akses folder share jaringan LAN, dan kendala software.</li>
+            <li>Mengembangkan query SQL terstruktur untuk sinkronisasi data stok material, mengurangi waktu rekonsiliasi manual harian hingga 35%.</li>
           </ul>
         </div>
-      </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="kontak" class="contact-banner">
-      <h2>Siap Berkontribusi untuk Tim IT Perusahaan Anda</h2>
-      <p>
-        Mencari kandidat IT Support yang tanggap, tidak takut bongkar perangkat keras, menguasai jaringan, dan mampu mengotomasi tugas repetitif? Mari berdiskusi.
-      </p>
+        <!-- PT Bintang Sukses Mulia -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="exp-title">Head of Procurement &amp; IT Project Lead</div>
+            <div class="exp-date">Mei 2023 — Mei 2024</div>
+          </div>
+          <div class="exp-company">PT Bintang Sukses Mulia • Jepara, Jawa Tengah</div>
+          <ul class="exp-bullets">
+            <li>Mengembangkan dan menerapkan sistem manajemen produksi pabrik karton (BSMCartonBox) pada terminal layar sentuh pabrik, menggantikan pencatatan kertas konvensional.</li>
+            <li>Menyelesaikan masalah teknis perangkat keras lapangan, termasuk barcode scanner yang kerap freeze akibat fluktuasi voltase dan gelombang elektromagnetik mesin pabrik.</li>
+            <li>Melakukan audit spesifikasi, pengadaan hardware komputer, penggantian router kantor, dan penarikan kabel jaringan LAN baru.</li>
+          </ul>
+        </div>
 
-      <div class="contact-methods">
-        <a href="mailto:mrizkymxx@gmail.com" class="contact-chip">
-          ✉️ mrizkymxx@gmail.com
-        </a>
-        <button class="contact-chip" onclick="copyValue('mrizkymxx@gmail.com', 'Alamat email berhasil disalin!')">
-          📋 Salin Email
-        </button>
-        <a href="https://linkedin.com/in/mrizkymxx" target="_blank" rel="noreferrer" class="contact-chip">
-          💼 LinkedIn: in/mrizkymxx
-        </a>
-        <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer" class="contact-chip">
-          🐙 GitHub: @mrizkymxx
-        </a>
-      </div>
+        <!-- Apta Living -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="exp-title">Purchasing &amp; Systems Coordinator</div>
+            <div class="exp-date">2022 — 2023</div>
+          </div>
+          <div class="exp-company">Apta Living • Jepara, Jawa Tengah</div>
+          <ul class="exp-bullets">
+            <li>Memberikan dukungan teknis onsite untuk komputer kerja staf: instalasi ulang OS Windows, konfigurasi aplikasi email, dan pembersihan malware.</li>
+            <li>Menstabilkan konektivitas jaringan kantor, memperbaiki IP conflict pada router, dan melakukan terminasi ulang kabel LAN yang rusak.</li>
+            <li>Menerapkan prosedur pencadangan (backup) berkala untuk mengamankan data pengadaan dan dokumen kontrak penting perusahaan.</li>
+          </ul>
+        </div>
 
-      <div style="font-size: 13px; color: var(--text-dim);">
-        Lokasi: Jepara, Jawa Tengah • Siap bekerja di Semarang, Solo, Yogyakarta, Jakarta, atau Remote
-      </div>
-    </section>
+        <!-- Teak Take -->
+        <div class="exp-item">
+          <div class="exp-top">
+            <div class="exp-title">Logistics &amp; Inventory Systems Officer</div>
+            <div class="exp-date">Juli 2021 — Juli 2024</div>
+          </div>
+          <div class="exp-company">Teak Take • Jepara, Jawa Tengah</div>
+          <ul class="exp-bullets">
+            <li>Mengoperasikan software pelacakan pengiriman kontainer ekspor dan arsip stuffing digital (EximPro).</li>
+            <li>Merawat PC kantor: melakukan upgrade RAM, kloning data dari harddisk mekanis ke SSD, dan pembersihan fisik hardware.</li>
+            <li>Mengelola printer barcode label kemasan dan printer dokumen kantor, mengatasi masalah driver dan antrean cetak macet.</li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-      <p>© 2026 Muhammad Rizky, S.Kom. Halaman portofolio hand-coded tanpa framework berat.</p>
-    </footer>
+      <!-- Proyek Sistem & Software Nyata -->
+      <section class="section">
+        <h2 class="section-heading">
+          <span class="bar"></span>
+          Proyek Sistem &amp; Otomasi Teruji
+        </h2>
+        <div class="projects-list">
+
+          <div class="project-card">
+            <div>
+              <div class="project-type">Operasional Pabrik &amp; Kiosk</div>
+              <h3>BSMCartonBox</h3>
+              <p class="project-summary">
+                Sistem monitoring produksi pabrik karton dengan mode penyimpanan lokal (IndexedDB) agar operator mesin tetap bisa menginput data tanpa kehilangan catatan saat sinyal Wi-Fi lantai pabrik terputus.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">Firestore</span>
+                <span class="project-tag">Offline Sync</span>
+                <span class="project-tag">Barcode USB</span>
+              </div>
+            </div>
+            <a href="https://github.com/mrizkymxx/bmscartonbox" target="_blank" rel="noreferrer" class="project-link-btn">
+              Buka Kode di GitHub ↗
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <div class="project-type">Hardware Kiosk &amp; Tiket Fisik</div>
+              <h3>Q-Premium Queue</h3>
+              <p class="project-summary">
+                Kiosk antrean publik mandiri dengan pemotong tiket otomatis dan sinkronisasi nomor antrean ke HP pengunjung. Terhubung langsung ke hardware printer thermal via perintah kode hex ESC/POS.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Flutter</span>
+                <span class="project-tag">Supabase Realtime</span>
+                <span class="project-tag">Printer ESC/POS</span>
+                <span class="project-tag">Port Serial</span>
+              </div>
+            </div>
+            <a href="https://github.com/mrizkymxx/q-premium-queue" target="_blank" rel="noreferrer" class="project-link-btn">
+              Buka Kode di GitHub ↗
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <div class="project-type">Aplikasi Layanan Publik</div>
+              <h3>Lapor Desa Rau</h3>
+              <p class="project-summary">
+                Platform aduan infrastruktur warga desa dengan validasi lokasi GPS menggunakan geofencing PostGIS. Dilengkapi kompresi foto otomatis (dari 6MB ke 350KB) agar tetap lancar di jaringan 3G.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">PostgreSQL</span>
+                <span class="project-tag">PostGIS</span>
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">Leaflet</span>
+              </div>
+            </div>
+            <a href="https://github.com/mrizkymxx/lapor-desa-rau" target="_blank" rel="noreferrer" class="project-link-btn">
+              Buka Kode di GitHub ↗
+            </a>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <div class="project-type">Toolkit Otomasi SysAdmin</div>
+              <h3>IT Automation Toolkit</h3>
+              <p class="project-summary">
+                Koleksi skrip PowerShell 7+ untuk perawatan PC cepat: instalasi software massal (silent winget), audit kesehatan drive SMART, pembersihan printer spooler beku, dan reset cache DNS.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">PowerShell 7</span>
+                <span class="project-tag">WMI / CIM</span>
+                <span class="project-tag">Batch Script</span>
+                <span class="project-tag">Event Viewer</span>
+              </div>
+            </div>
+            <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer" class="project-link-btn">
+              Buka Kode di GitHub ↗
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Pendidikan & Kualifikasi -->
+      <section class="section">
+        <h2 class="section-heading">
+          <span class="bar"></span>
+          Pendidikan Formal &amp; Kualifikasi
+        </h2>
+
+        <div class="edu-sheet">
+          <div class="edu-header">
+            <div class="edu-degree">Sarjana Sistem Informasi (S.Kom.)</div>
+            <div class="edu-gpa">IPK: 3.56 / 4.00 (Cum Laude)</div>
+          </div>
+          <div class="edu-school">Universitas Islam Nahdlatul Ulama Jepara (UNISNU)</div>
+          <p class="edu-desc">
+            Mata kuliah inti yang relevan: Jaringan Komputer, Sistem Operasi, Arsitektur Basis Data (SQL), Analisis &amp; Desain Sistem Informasi, Keamanan Sistem Informasi, dan Enterprise Resource Planning (ERP).
+          </p>
+        </div>
+      </section>
+
+      <!-- Call to Action Box -->
+      <section class="cta-footer-box">
+        <h2>Siap Bekerja &amp; Berkontribusi Segera</h2>
+        <p>
+          Mencari staf IT Support yang cekatan merawat PC, memahami jaringan kabel/Wi-Fi kantor, dan mampu mengotomasi alur kerja? Silakan hubungi saya langsung:
+        </p>
+
+        <div class="cta-button-group">
+          <a href="mailto:mrizkymxx@gmail.com" class="btn-action-primary">
+            ✉️ Kirim Email (mrizkymxx@gmail.com)
+          </a>
+          <button class="btn-action-secondary" onclick="copyContact('mrizkymxx@gmail.com')">
+            📋 Salin Email
+          </button>
+          <a href="https://linkedin.com/in/mrizkymxx" target="_blank" rel="noreferrer" class="btn-action-secondary">
+            💼 Buka LinkedIn
+          </a>
+          <a href="https://github.com/mrizkymxx" target="_blank" rel="noreferrer" class="btn-action-secondary">
+            🐙 Buka GitHub
+          </a>
+        </div>
+      </section>
+
+    </main>
 
   </div>
 
-  <!-- Toast Notification -->
-  <div class="toast-notice" id="toast">Teks berhasil disalin!</div>
+  <!-- Toast -->
+  <div class="toast-popup" id="toast">Email berhasil disalin!</div>
 
   <script>
-    function copyValue(text, message) {
+    function copyContact(text) {
       navigator.clipboard.writeText(text).then(function() {
         var toast = document.getElementById('toast');
-        toast.textContent = message || 'Berhasil disalin!';
         toast.style.display = 'block';
         setTimeout(function() {
           toast.style.display = 'none';
