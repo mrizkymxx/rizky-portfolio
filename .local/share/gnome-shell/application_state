@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="usb-creator-gtk.desktop" score="0" last-seen="1789772760"/>
+    <application id="brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop" score="3064" last-seen="1790086821"/>
+    <application id="gnome-session-properties.desktop" score="0.5" last-seen="1789772571"/>
+    <application id="brave-browser.desktop" score="283" last-seen="1790088597"/>
+    <application id="org.gnome.Cheese.desktop" score="0" last-seen="1789772669"/>
+    <application id="software-properties-gtk.desktop" score="0.5" last-seen="1789775076"/>
+    <application id="gnome-control-center.desktop" score="92.5" last-seen="1790088637"/>
+    <application id="apport-gtk.desktop" score="1.5" last-seen="1789772238"/>
+    <application id="update-manager.desktop" score="22.5" last-seen="1789772217"/>
+    <application id="org.gnome.eog.desktop" score="0.5" last-seen="1789816322"/>
+    <application id="org.gnome.Nautilus.desktop" score="71.5" last-seen="1789816885"/>
+    <application id="org.gnome.Todo.desktop" score="117" last-seen="1790078056"/>
+    <application id="gnome-initial-setup.desktop" score="3" last-seen="1789771724"/>
+    <application id="org.gnome.Terminal.desktop" score="24338.5" last-seen="1790088595"/>
+    <application id="rhythmbox.desktop" score="5" last-seen="1790065218"/>
+    <application id="org.gnome.gedit.desktop" score="0" last-seen="1789816849"/>
+    <application id="org.gnome.baobab.desktop" score="0.5" last-seen="1789772704"/>
+    <application id="org.gnome.Evince.desktop" score="14.5" last-seen="1789812268"/>
+  </context>
+</application-state>

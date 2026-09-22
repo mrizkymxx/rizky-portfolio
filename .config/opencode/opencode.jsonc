@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "opencode/deepseek-v4-flash-free",
+  "small_model": "opencode/deepseek-v4-flash-free",
+  "plugin": [
+    "@dietrichgebert/ponytail",
+    "opencode-slim-system"
+  ],
+  "instructions": ["/home/rizky/.config/opencode/AGENTS.md"],
+  "mcp": {
+    "vercel": {
+      "type": "remote",
+      "url": "https://mcp.vercel.com",
+      "enabled": true
+    }
+  }
+}

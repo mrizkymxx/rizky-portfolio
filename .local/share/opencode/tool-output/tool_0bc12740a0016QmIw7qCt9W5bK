@@ -1,0 +1,891 @@
+Title: AI model comparison
+URL: https://docs.github.com/copilot/reference/ai-models/model-comparison
+Published: N/A
+Author: N/A
+Highlights:
+## Comparison of AI models for GitHub Copilot
+...
+GitHub Copilot supports multiple AI models with different capabilities. The model you choose affects the quality and relevance of responses by Copilot Chat and Copilot inline suggestions. Some models offer lower latency, while others offer fewer hallucinations or better performance on specific tasks. This guide helps you pick the best model based on your task, not just model names.
+...
+> [!NOTE]
+> 
+> - Different models consume AI credits at different rates based on their token pricing. For details, see Models and pricing for GitHub Copilot.
+> - Choosing the Auto option when selecting a model automatically selects the optimum model for your task, based on model availability and task complexity. If you are on a paid Copilot plan, you qualify for a discount on model costs when you use the Auto option. See About Copilot auto model selection.
+...
+| Model | Task area | Excels at (primary use case) | Further reading |
+| --- | --- | --- | --- |
+| | | | |
+| GPT-5 mini | General-purpose coding and writing | Fast, accurate code completions and explanations | GPT-5 mini model card |
+| | | | |
+...
+| GPT-5.3-Codex | Agentic software development | Agentic tasks | GPT-5.3-Codex model card |
+| | | | |
+...
+| GPT-5.4 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.4 model card |
+| | | | |
+...
+| GPT-5.4 mini | Agentic software development | Codebase exploration and is especially effective when using grep-style tools | GPT-5.4 mini model card |
+...
+| GPT-5.5 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.5 model card |
+...
+| GPT-5.6 Luna | Fast help with simple or repetitive tasks | Quick, cost-efficient responses for smaller, faster coding tasks | GPT-5.6 model card |
+...
+| GPT-5.6 Sol | Deep reasoning and debugging | Complex reasoning over large codebases and long-running agentic work | GPT-5.6 model card |
+...
+| GPT-5.6 Terra | General-purpose coding and agent tasks | Balanced everyday interactive and agentic coding | GPT-5.6 model card |
+...
+| Claude Fable 5 | Long-horizon, autonomous coding and knowledge-work | First-attempt correctness through upfront reasoning, aggressive parallel tool batching, and proactive verification of pre-existing test state before debugging | Claude Fable 5 model card |
+...
+| Claude Fable 5.1 | Long-horizon, autonomous coding and knowledge-work | Substantial, long-running coding tasks, including deep codebase research, feature development, and complex agentic workflows | Claude Fable 5.1 model card |
+...
+| Claude Haiku 4.5 | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Claude Haiku 4.5 model card |
+...
+| Claude Opus 4.7 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.7 model card |
+...
+| Claude Opus 4.8 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.8 model card |
+...
+| Claude Opus 4.8 (fast mode) (preview) | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.8 model card |
+...
+| Claude Opus 5 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 5 model card |
+...
+| Claude Sonnet 4.5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.5 model card |
+...
+| Claude Sonnet 4.6 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.6 model card |
+...
+| Claude Sonnet 5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 5 model card |
+...
+| Gemini 3.1 Pro | Deep reasoning and debugging | Effective and efficient edit-then-test loops with high tool precision | Gemini 3.1 Pro model card |
+...
+| Gemini 3.5 Flash | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Gemini 3.5 Flash model card |
+...
+| MAI-Code-1-Flash[^mai-code-1-flash] | General-purpose coding and writing | Fast, accurate code completions and explanations | MAI-Code-1-Flash model card |
+...
+| MAI-Code-1.1-Flash[^mai-code-1-flash] | General-purpose
+...
+following, tool use | MAI-Code-1.1-Flash model card |
+...
+| Grok 4.5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Grok 4.5 model card |
+...
+| Grok 4.6 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Grok 4.6 model card |
+...
+| Qwen2.5 | General-purpose coding and writing | Code generation, reasoning, and code repair / debugging | Qwen2.5 model card |
+...
+| Raptor mini | General-purpose coding and writing | Fast, accurate code completions and explanations | Coming soon |
+...
+| Kimi K2.7 Code | General-purpose coding and agent tasks | Fast, reliable answers to lightweight coding questions | Kimi K2.7 Code model card |
+...
+| Kimi K3[^kimi-k3] | Agentic coding and long-context work | Multi-step agent tasks across large codebases | Kimi K3 model card |
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5.3-Codex | Delivers higher-quality code on complex engineering tasks like features, tests, debugging, refactors, and reviews without lengthy instructions. |
+| GPT-5 mini | Reliable default for most coding and writing tasks. Fast, accurate, and works well across languages and frameworks. |
+| GPT-5.6 Terra | Balanced all-round choice for everyday interactive and agentic coding. |
+| Raptor mini | Specialized for fast, accurate inline suggestions and explanations. |
+| MAI-Code-1-Flash | Strong instruction-following and adaptive reasoning make it a reliable default for everyday coding tasks, writing, and multi-turn development workflows. |
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5.6 Luna | Lightweight, cost-efficient option for smaller, faster tasks. The lowest-cost model in the GPT-5.6 family. |
+| Claude Haiku 4.5 | Balances fast responses with quality output. Ideal for small tasks and lightweight code explanations. |
+| MAI-Code-1-Flash | Handles quick coding tasks with adaptive efficiency, stays concise for simple requests and delivers fast, accurate responses without unnecessary depth. |
+...
+### Recommended models
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5 mini | Delivers deep reasoning and debugging with faster responses and lower resource usage than GPT-5. Ideal for interactive sessions and step-by-step code analysis. |
+| GPT-5.5 | Great at complex reasoning, code analysis, and technical decision-making. |
+| GPT-5.6 Sol | The highest reasoning ceiling in the GPT-5.6 family. Best for complex reasoning over large codebases and demanding, long-running agentic work. |
+| Claude Sonnet 4.6 | Improves on Sonnet 4.5 with more reliable completions and smarter reasoning under pressure. |
+| Claude Opus 4.7 | Anthropic’s most powerful model. Improves on Claude Opus 4.6. |
+| Gemini 3.1 Pro | Advanced reasoning across long contexts and scientific or technical analysis. |
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5 mini | Reliable default for most coding and writing tasks. Fast, accurate, and supports multimodal input for visual reasoning tasks. Works well across languages and frameworks. |
+| Claude Sonnet 4.6 | Improves on Sonnet 4.5 with more reliable completions and smarter reasoning under pressure. |
+| Gemini 3.1 Pro | Deep reasoning and debugging, ideal for complex code generation, debugging, and research workflows. |
+...
+Choosing the right model helps you get the most out of Copilot. If you're not sure which model to use, start with a general-purpose option like GPT-5 mini, then adjust based on your needs.
+...
+For detailed model specs and pricing, see Supported AI models in GitHub Copilot
+
+---
+
+Title: Supported AI models in GitHub Copilot
+URL: https://docs.github.com/copilot/reference/ai-models/supported-models
+Published: N/A
+Author: N/A
+Highlights:
+GitHub Copilot supports multiple AI models, each with different strengths. Some prioritize speed and cost-efficiency, while others are optimized for accuracy, reasoning, or multimodal inputs. The right model depends on your task. For a side-by-side comparison to help you choose, see AI model comparison.
+...
+This table lists the AI models available in Copilot, along with their release status.
+...
+| Model name | Provider | Release status |
+| --- | --- | --- |
+| | | |
+| GPT-5 mini | OpenAI | GA |
+| | | |
+| GPT-5.3-Codex | OpenAI | GA |
+| | | |
+| GPT-5.4 | OpenAI | GA |
+| | | |
+| GPT-5.4 mini | OpenAI | GA |
+| | | |
+| GPT-5.4 nano[^gpt54nano] | OpenAI | GA |
+| | | |
+| GPT-5.5 | OpenAI | GA |
+| | | |
+| GPT-5.6 Luna | OpenAI | GA |
+| | | |
+| GPT-5.6 Sol | OpenAI | GA |
+| | | |
+| GPT-5.6 Terra | OpenAI | GA |
+| | | |
+...
+| Claude Fable 5[^claude-fable-5] | Anthropic | GA |
+| | | |
+| Claude Fable 5.1[^claude-fable-5] | Anthropic | GA |
+| | | |
+| Claude Haiku 4.5 | Anthropic | GA |
+| | | |
+| Claude Opus 4.5 | Anthropic | GA |
+| | | |
+| Claude Opus 4.6 | Anthropic | GA |
+| | | |
+| Claude Opus 4.7 | Anthropic | GA |
+| | | |
+| Claude Opus 4.8 | Anthropic | GA |
+| | | |
+| Claude Opus 4.8 (fast mode) (preview) | Anthropic | GA |
+| | | |
+| Claude Opus 5 | Anthropic | GA |
+| | | |
+...
+| Claude Sonnet 4.5 | Anthropic | GA |
+| | | |
+| Claude Sonnet 4.6 | Anthropic | GA |
+| | | |
+| Claude Sonnet 5 | Anthropic | GA |
+| | | |
+...
+| Gemini 3.1 Pro | Google | Public preview |
+...
+| | | |
+...
+| Gemini 3.5 Flash | Google | GA |
+...
+| | | |
+...
+| Gemini 3.6 Flash | Google | GA |
+...
+| | | |
+...
+| Gemini 3.7 Flash | Google | GA |
+...
+| | | |
+...
+| Gemini 3.8 Flash | Google | GA |
+...
+| | | |
+...
+| MAI-Code-1-Flash[^mai-code-1-flash] | Microsoft | GA |
+...
+| | | |
+...
+| MAI-Code-1.1-Flash[^mai-code-1-flash] | Microsoft | GA |
+...
+| | | |
+...
+| Raptor mini | Fine-tuned GPT-5 mini | GA |
+| | | |
+...
+| Kimi K2.7 Code | Moonshot AI |
+...
+| | | |
+...
+| Kimi K3 | Moonshot AI | GA |
+...
+| | | |
+...
+| Grok 4.5 | xAI | GA |
+| | | |
+| Grok 4.6 | xAI | GA |
+| | | |
+...
+This table lists the supported AI models for Auto model selection. Available models may be limited by model policies. For example, as the long term support model, GPT-5.3-Codex will be used in the event no other models are available. See Base and long-term support (LTS) models and About Copilot auto model selection.
+...
+| Model | Copilot cloud agent | Copilot Chat | Copilot CLI | GitHub Copilot app |
+| --- | --- | --- | --- | --- |
+| | | | | |
+| GPT-5 mini | | | | |
+| | | | | |
+| GPT-5.3-Codex | | | | |
+| | | | | |
+| GPT-5.4 | | | | |
+| | | | | |
+| GPT-5.4 mini | | | | |
+| | | | | |
+| GPT-5.5 | | | | |
+| | | | | |
+| GPT-5.6 Luna | | | | |
+| | | | | |
+| GPT-5.6 Sol | | | | |
+| | | | | |
+| GPT-5.6 Terra | | | | |
+| | | | | |
+...
+| Claude Haiku 4.5 | | | | |
+| | | | | |
+| Claude Opus 4.8 | | | | |
+| | | | | |
+...
+| Claude Opus 5 | | | | |
+| | | | | |
+...
+| Claude Sonnet 4.6 | | | | |
+| | | | | |
+...
+| Claude Sonnet 5 | | | | |
+| | | | | |
+...
+| Gemini 3.6 Flash | | | | |
+...
+| | | | | |
+...
+| Gemini 3.7 Flash | | | | |
+...
+| | | | | |
+...
+| MAI-Code-1.1-Flash | | | | |
+| | | | | |
+...
+| Model | 1 million token context window | Configurable reasoning |
+| --- | --- | --- |
+| Claude Sonnet 4.6 | | |
+| Claude Opus 4.6 | | |
+| Claude Opus 4.7 | | |
+| Claude Opus 4.8 | | |
+| Claude Opus 5 | | |
+| Claude Sonnet 5 | | |
+| Claude Opus 4.8 (fast mode) (preview) | | |
+| Claude Fable 5 | | |
+| Claude Fable 5.1 | | |
+| GPT-5.3-Codex | | |
+| GPT-5.4 | | |
+| GPT-5.5 | | |
+| GPT-5.6 Luna | | |
+| GPT-5.6 Sol | | |
+| GPT-5.6 Terra | | |
+| Kimi K3 | | |
+...
+| GPT-5 mini | | | | | | | |
+| | | | | | | | |
+...
+| GPT-5.3-Codex | | | | | | | |
+| | | | | | | | |
+...
+Codex | `v1.104.1` | `17.14.19` | `1.5.61` | `0.45.0` | `0.13.0` |
+...
+| GPT-5.4 | `v1.104.1` | `17.14.19` | `1.5.66` | `0.47.0` | `0.15.0` |
+...
+| GPT-5.4 mini | `v1.104.1` | `17.14.19` | `1.5.66` | `0.47.0` | `0.15.0` |
+...
+| GPT-5.5 | `v1.117` | `17.14.19` | `1.5.66` | `0.47.0` | `0.15.0` |
+...
+| GPT-5.6 Luna | `1.128.0` | T
+...
+| TBD | TBD | TBD |
+...
+| GPT-5.6 Sol | `1.128.0` | TBD | TBD | TBD | TBD |
+...
+| GPT-5.6 Terra | `1.128.0` | TBD | TBD | TBD |
+...
+| Claude Opus 4.8 | `v1.118` | `17.14.6` | TBD | TBD | TBD |
+| Claude Opus 5 | `v1.128.0` | `17.14.22` | TBD | TBD | TBD |
+...
+Claude Sonnet 5 | `v1.
+...
+24` | `17.14.6` | T
+...
+| TBD
+...
+Claude Fable 5 | `v1.124` | `17.14.6` | TBD | TBD | TBD |
+| Claude Fable 5.1 | TBD | TBD |
+...
+BD | TBD | TBD |
+...
+Copilot plan
+...
+| Available models | Copilot Pro | Copilot Pro+ | Copilot Max | Copilot Business | Copilot Enterprise |
+| --- | --- | --- | --- | --- | --- |
+...
+| | | | | | |
+...
+| Claude Haiku 4.5 | | | | | |
+| | | | | | |
+| Claude Opus 4.5 | | | | | |
+| | | | | | |
+| Claude Opus 4.6 | | | | | |
+| | | | | | |
+...
+| Claude Opus 4.7 | | | | | |
+| | | | | | |
+...
+| Claude Opus 4.8 | | | | | |
+| | | | | | |
+| Claude Opus 4.8 (fast mode) (preview) | | | | | |
+| | | | | | |
+...
+| Claude Opus 5 | | | | | |
+...
+| | | | | | |
+...
+| Claude Fable 5[^claude-fable-5] | | | | | |
+| | | | | | |
+| Claude Fable 5.1[^claude-fable-5] | | | | | |
+| | | | | | |
+...
+| Claude Sonnet 4.5 | | | | | |
+...
+| | | | | | |
+...
+| Claude Sonnet 4.6 | | | | | |
+...
+| | | | | | |
+...
+| Claude Sonnet 5 | | | | | |
+...
+| | | | | | |
+...
+| GPT-5 mini | | | | | |
+| | | | | | |
+| GPT-5.3-Codex | | | | | |
+| | | | | | |
+...
+| GPT-5.4 | | | | | |
+| | | | | | |
+...
+| GPT-5.4 mini | | | | | |
+| | | | | | |
+...
+| GPT-5.4 nano[^gpt54nano] | | | | | |
+| | | | | | |
+...
+| GPT-5.5 | | | | | |
+| | | | | | |
+...
+| GPT-5.6 Luna | | | | | |
+| | | | | | |
+...
+| GPT-5.6 Sol | | | | | |
+| | | | | | |
+...
+| GPT-5.6 Terra | | | | | |
+...
+| | | | | |
+...
+| Model name | Retirement date | Suggested alternative |
+| --- | --- | --- |
+| | | |
+...
+| MAI-Code-1-Flash | 2026-09-10 | MAI-Code-1.1-Flash |
+| | | |
+| Claude Opus 4.5 | 2026-09-01 | Claude Opus 5 |
+| | | |
+...
+| Claude Opus 4.6 | 2026-09-01 | Claude Opus 5 |
+...
+| | | |
+...
+| Claude Sonnet 4.5 | 2026-09-01 | Claude
+...
+net 5 |
+...
+| | | |
+|
+...
+Sonnet 4.6[^claude-sonnet-46-annual] | 2026-09-01 |
+...
+Sonnet 5 |
+...
+| | | |
+...
+| GPT-4.1 | 2026-06-01 | GPT-5.5 |
+| | | |
+...
+| GPT-5.2 | 2026-06-01 | GPT-5.5 |
+| | | |
+...
+| GPT-5.2-Codex | 2026-06-01 | GPT-5.3-Codex |
+| | | |
+...
+| Grok Code Fast 1 | 2026-05-15 | GPT-5 mini |
+...
+-01 | Claude
+...
+| GPT-5.1 | 2026-04-15 | GPT-5.3-Codex |
+| | | |
+...
+| GPT-5.1-Codex | 2026-04-01 | GPT-5.3-Codex |
+| | | |
+...
+| GPT-5.1-Codex-Max | 2026-04-01 | GPT-5.3-Codex |
+| | | |
+...
+| GPT-5.1-Codex-Mini | 2026-04-01 | GPT-5.3-Codex |
+...
+| | |
+...
+| Claude Opus 4.1 | 2026-02-17 | Claude Opus 4.6 |
+| | | |
+| GPT-5 | 2026-02-17 | GPT-5.5 |
+| | | |
+| GPT-5-Codex | 2026-02-17 | GPT-5.3-Codex |
+| | | |
+
+---
+
+Title: N/A
+URL: https://docs.github.com/en/copilot/reference/ai-models/model-comparison?search-overlay-input=
+Published: N/A
+Author: N/A
+Highlights:
+## Comparison of AI models for GitHub Copilot
+...
+GitHub Copilot supports multiple AI models with different capabilities. The model you choose affects the quality and relevance of responses by Copilot Chat and Copilot inline suggestions. Some models offer lower latency, while others offer fewer hallucinations or better performance on specific tasks. This guide helps you pick the best model based on your task, not just model names.
+...
+> [!NOTE]
+> 
+> - Different models consume AI credits at different rates based on their token pricing. For details, see Models and pricing for GitHub Copilot.
+> - Choosing the Auto option when selecting a model automatically selects the optimum model for your task, based on model availability and task complexity. If you are on a paid Copilot plan, you qualify for a discount on model costs when you use the Auto option. See About Copilot auto model selection.
+...
+| Model | Task area | Excels at (primary use case) | Further reading |
+| --- | --- | --- | --- |
+| | | | |
+| GPT-5 mini | General-purpose coding and writing | Fast, accurate code completions and explanations | GPT-5 mini model card |
+| | | | |
+...
+| GPT-5.3-Codex | Agentic software development | Agentic tasks | GPT-5.3-Codex model card |
+| | | | |
+...
+| GPT-5.4 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.4 model card |
+| | | | |
+...
+| GPT-5.4 mini | Agentic software development | Codebase exploration and is especially effective when using grep-style tools | GPT-5.4 mini model card |
+...
+| GPT-5.5 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.5 model card |
+...
+| GPT-5.6 Luna | Fast help with simple or repetitive tasks | Quick, cost-efficient responses for smaller, faster coding tasks | GPT-5.6 model card |
+...
+| GPT-5.6 Sol | Deep reasoning and debugging | Complex reasoning over large codebases and long-running agentic work | GPT-5.6 model card |
+...
+| GPT-5.6 Terra | General-purpose coding and agent tasks | Balanced everyday interactive and agentic coding | GPT-5.6 model card |
+...
+| Claude Fable 5 | Long-horizon, autonomous coding and knowledge-work | First-attempt correctness through upfront reasoning, aggressive parallel tool batching, and proactive verification of pre-existing test state before debugging | Claude Fable 5 model card |
+...
+| Claude Haiku 4.5 | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Claude Haiku 4.5 model card |
+...
+| Claude Opus 4.7 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.7 model card |
+...
+| Claude Opus 4.8 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.8 model card |
+...
+| Claude Opus 4.8 (fast mode) (preview) | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.8 model card |
+...
+| Claude Opus 5 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 5 model card |
+...
+| Claude Sonnet 4.5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.5 model card |
+...
+| Claude Sonnet 4.6 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.6 model card |
+...
+| Claude Sonnet 5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 5 model card |
+...
+| Gemini 3.1 Pro | Deep reasoning and debugging | Effective and efficient edit-then-test loops with high tool precision | Gemini 3.1 Pro model card |
+...
+| Gemini 3.5 Flash | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Gemini 3.5 Flash model card |
+...
+| MAI-Code-1-Flash[^mai-code-1-flash] | General-purpose coding and writing | Fast, accurate code completions and explanations | MAI-Code-1-Flash model card |
+...
+| MAI-Code-1.1-Flash[^mai-code-1-flash] | General-purpose coding and writing, image understanding | Fast code completions and explanations, instruction following, tool use | MAI-Code-1.1-Flash model card |
+...
+| Grok 4.5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Grok 4.5 model card |
+...
+| Grok 4.6 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Grok 4.6 model card |
+...
+| Qwen2.5 | General-purpose coding and writing | Code generation, reasoning, and code repair / debugging | Qwen2.5 model card |
+...
+| Raptor mini | General-purpose coding and writing | Fast, accurate code completions and explanations | Coming soon |
+...
+| Kimi K2.7 Code | General-purpose coding and agent tasks | Fast, reliable answers to lightweight coding questions | Kimi K2.7 Code model card |
+...
+| Kimi K3[^kimi-k3] | Agentic coding and long-context work | Multi-step agent tasks across large codebases | Kimi K3 model card |
+...
+don't
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5.3-Codex | Delivers higher-quality code on complex engineering tasks like features, tests, debugging, refactors, and reviews without lengthy instructions. |
+| GPT-5 mini | Reliable default for most coding and writing tasks. Fast, accurate, and works well across languages and frameworks. |
+| GPT-5.6 Terra | Balanced all-round choice for everyday interactive and agentic coding. |
+| Raptor mini | Specialized for fast, accurate inline suggestions and explanations. |
+| MAI-Code-1-Flash | Strong instruction-following and adaptive reasoning make it a reliable default for everyday coding tasks, writing, and multi-turn development workflows. |
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5.6 Luna | Lightweight, cost-efficient option for smaller, faster tasks. The lowest-cost model in the GPT-5.6 family. |
+| Claude Haiku 4.5 | Balances fast responses with quality output. Ideal for small tasks and lightweight code explanations. |
+| MAI-Code-1-Flash | Handles quick coding tasks with adaptive efficiency, stays concise for simple requests and delivers fast, accurate responses without unnecessary depth. |
+...
+## Task:
+...
+### Recommended models
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5 mini | Delivers deep reasoning and debugging with faster responses and lower resource usage than GPT-5. Ideal for interactive sessions and step-by-step code analysis. |
+| GPT-5.5 | Great at complex reasoning, code analysis, and technical decision-making. |
+| GPT-5.6 Sol | The highest reasoning ceiling in the GPT-5.6 family. Best for complex reasoning over large codebases and demanding, long-running agentic work. |
+| Claude Sonnet 4.6 | Improves on Sonnet 4.5 with more reliable completions and smarter reasoning under pressure. |
+| Claude Opus 4.7 | Anthropic’s most powerful model. Improves on Claude Opus 4.6. |
+| Gemini 3.1 Pro | Advanced reasoning across long contexts and scientific or technical analysis. |
+...
+| Model | Why it's a good fit |
+| --- | --- |
+| GPT-5 mini | Reliable default for most coding and writing tasks. Fast, accurate, and supports multimodal input for visual reasoning tasks. Works well across languages and frameworks. |
+| Claude Sonnet 4.6 | Improves on Sonnet 4.5 with more reliable completions and smarter reasoning under pressure. |
+| Gemini 3.1 Pro | Deep reasoning and debugging, ideal for complex code generation, debugging, and research workflows. |
+...
+Choosing the right model helps you get the most out of Copilot. If you're not sure which model to use, start with a general-purpose option like GPT-5 mini, then adjust based on your needs.
+...
+- For detailed model specs and pricing, see Supported AI models in GitHub Copilot.
+- For more examples of how to use different models, see Comparing AI models using different tasks.
+...
+Changing the AI
+
+---
+
+Title: GitHub Copilot Model Comparison for Coding | The Copilot Stack
+URL: https://thecopilotstack.com/github-copilot/customization/model-comparison/
+Published: 2026-08-24T00:00:00.000Z
+Author: N/A
+Highlights:
+The current Copilot model inventory in full: 32 models from 7 providers, with what GitHub publishes about each and nothing it does not.
+...
+| Model | Provider | Status | GitHub groups it under |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | GA | General-purpose coding and writing; Deep reasoning and debugging; Working with visuals |
+| GPT-5.3-Codex | OpenAI | GA | General-purpose coding and writing |
+| GPT-5.4 | OpenAI | GA | No task grouping published |
+| GPT-5.4 mini | OpenAI | GA | No task grouping published |
+| GPT-5.4 nano | OpenAI | GA | No task grouping published |
+| GPT-5.5 | OpenAI | GA | Deep reasoning and debugging |
+| GPT-5.6 Luna | OpenAI | GA | Fast help with simple or repetitive tasks |
+| GPT-5.6 Sol | OpenAI | GA | Deep reasoning and debugging |
+| GPT-5.6 Terra | OpenAI | GA | General-purpose coding and writing |
+...
+| Claude Fable 5 | Anthropic | GA | No task grouping published |
+| Claude Fable 5.1 | Anthropic | GA | No task grouping published |
+| Claude Haiku 4.5 | Anthropic | GA | Fast help with simple or repetitive tasks |
+| Claude Opus 4.5 | Anthropic | GA | No task grouping published Retires 2026-09-01 |
+| Claude Opus 4.6 | Anthropic | GA | No task grouping published Retires 2026-09-01 |
+| Claude Opus 4.7 | Anthropic | GA | Deep reasoning and debugging |
+| Claude Opus 4.8 | Anthropic | GA | No task grouping published |
+| Claude Opus 4.8 (fast mode) | Anthropic | Public preview | No task grouping published |
+| Claude Opus 5 | Anthropic | GA | No task grouping published |
+| Claude Sonnet 4.5 | Anthropic | GA | No task grouping published Retires 2026-09-01 |
+| Claude Sonnet 4.6 | Anthropic | GA | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+| Claude Sonnet 5 | Anthropic | GA | No task grouping published |
+| Gemini 3.1 Pro | Google | Public preview | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+...
+| Gemini 3.5 Flash | Google | GA | No task grouping published |
+| Gemini 3.6 Flash | Google | GA | No task grouping published |
+| Gemini 3.7 Flash | Google | GA | No task grouping published |
+...
+| MAI-Code-1-Flash | Microsoft | GA | General-purpose coding and writing; Fast help with simple or repetitive tasks Retires 2026-09-10 |
+| MAI-Code-1.1-Flash | Microsoft | GA | No task grouping published |
+| Raptor mini | Fine-tuned GPT-5 mini | GA | General-purpose coding and writing Retires 2026-09-01 |
+...
+| Kimi K2.7 Code | Moonshot AI | GA | No task grouping published |
+| Kimi K3 | Moonshot AI | GA | No task grouping published |
+| Grok 4.5 | xAI | GA | No task grouping published |
+| Grok 4.6 | xAI | GA | No task grouping published |
+...
+| Model | Provider | Status | GitHub groups it under |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | GA | General-purpose coding and writing; Deep reasoning and debugging; Working with visuals |
+| GPT-5.3-Codex | OpenAI | GA | General-purpose coding and writing |
+| GPT-5.6 Terra | OpenAI | GA | General-purpose coding and writing |
+| MAI-Code-1-Flash | Microsoft | GA | General-purpose coding and writing; Fast help with simple or repetitive tasks Retires 2026-09-10 |
+| Raptor mini | Fine-tuned GPT-5 mini | GA | General-purpose coding and writing Retires 2026-09-01 |
+...
+| Model | Provider | Status | GitHub groups it under |
+| --- | --- | --- | --- |
+| GPT-5.6 Luna | OpenAI | GA | Fast help with simple or repetitive tasks |
+| Claude Haiku 4.5 | Anthropic | GA | Fast help with simple or repetitive tasks |
+| MAI-Code-1-Flash | Microsoft | GA | General-purpose coding and writing; Fast help with simple or repetitive tasks Retires 2026-09-10 |
+...
+| Model | Provider | Status | GitHub groups it under |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | GA | General-purpose coding and writing; Deep reasoning and debugging; Working with visuals |
+| GPT-5.5 | OpenAI | GA | Deep reasoning and debugging |
+| GPT-5.6 Sol | OpenAI | GA | Deep reasoning and debugging |
+| Claude Opus 4.7 | Anthropic | GA | Deep reasoning and debugging |
+| Claude Sonnet 4.6 | Anthropic | GA | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+| Gemini 3.1 Pro | Google | Public preview | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+...
+| Model | Provider | Status | GitHub groups it under |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | GA | General-purpose coding and writing; Deep reasoning and debugging; Working with visuals |
+| Claude Sonnet 4.6 | Anthropic | GA | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+| Gemini 3.1 Pro | Google | Public preview | Deep reasoning and debugging; Working with visuals Retires 2026-09-01 |
+...
+Three of the six models GitHub lists under deep reasoning and two of the three under visual work carry a retirement date of 1 September 2026 — Claude Sonnet 4.6 and Gemini 3.1 Pro appear in both groups. The comparison page and the deprecation changelog are maintained separately, and on the day of the retirement the comparison page was still recommending them. Check a model’s retirement status before adopting it, not only its task fit.
+...
+| Model | Provider | Status | Retires |
+| --- | --- | --- | --- |
+| Claude Opus 4.5 | Anthropic | GA | 2026-09-01 Suggested alternative: Claude Opus 4.7, Claude Opus 4.8 or Claude Opus 5 |
+| Claude Opus 4.6 | Anthropic | GA | 2026-09-01 Suggested alternative: Claude Opus 4.7, Claude Opus 4.8 or Claude Opus 5 |
+...
+| Claude Sonnet 4.5 | Anthropic | GA | 2026-09-01 Suggested alternative: Claude Sonnet 5 |
+| Claude Sonnet 4.6 | Anthropic | GA | 2026-09-01 Suggested alternative: Claude Sonnet 5 GitHub states Claude Sonnet 4.6 remains available to individual Copilot subscribers on annual plans, so they retain a Sonnet offering; the deprecation does not apply to those customers. |
+...
+| Raptor mini | Fine-tuned GPT-5 mini | GA | 2026-09-01 Suggested alternative: MAI-Code-1-Flash GitHub names MAI-Code-1-Flash as the replacement, and MAI-Code-1-Flash is itself deprecated on 10 September. MAI-Code-1.1-Flash is the destination that survives both dates. |
+...
+OpenAI supplies the largest share of the inventory, spanning the full range from nano-scale fast models to reasoning-focused ones, plus a coding-specialised variant. This is the deepest single-provider bench in the list.
+...
+Anthropic supplies the second largest, organised in a clear capability ladder — Haiku for speed, Sonnet for balance, Opus for reasoning — with several Opus versions available simultaneously rather than only the newest. That simultaneity is worth noticing: it means teams that validated against a specific version are not forced forward on GitHub’s schedule.
+...
+models across several versions plus one Pro model in preview, weighting its presence toward the fast end.
+...
+Microsoft contributes coding-specialised Flash models, one of which is retiring in favour of its own successor — an unusually clean retirement, since the replacement is a point-release of the same family.
+...
+Raptor mini is listed with a provider of “Fine-tuned GPT-5 mini”, which is a different kind of entry: a model adapted for a purpose rather than a foundation model in its own right.
+...
+Version numbers rise within a family and mean nothing across families. GPT-5.6 is newer than GPT-5.4. Claude Opus 4.8 is newer than Claude Opus 4.7. GPT-5.6 and Claude Opus 4.8 have no relationship at all, and treating the numbers as comparable is the most common misreading of a list like this.
+...
+Tier names are reliable within a provider. Anthropic’s Haiku, Sonnet and Opus ascend in capability and cost. OpenAI’s nano, mini and unqualified names do the same. Google’s Flash and Pro split fast from capable. Once you know the ladder for a provider, a name you have never seen places itself.
+...
+One feature of the current inventory deserves comment because it is unusual: a number of families have several versions available at once. Four Claude Opus versions. Several GPT-5 point releases. Three Gemini Flash versions.
+
+---
+
+Title: GitHub Copilot Models 2026: 0.33x-15x Multiplier Gap
+URL: https://futuretweets.com/github-copilot-models-multiplier-pricing-2026/
+Published: 2026-09-16T01:34:14.000Z
+Author: Sana Rahman
+Highlights:
+This comparison breaks down every model currently available in GitHub Copilot as of September 16, 2026: Claude Opus 4.7 and Claude Opus 5 from Anthropic, the GPT-5.1 and GPT-5.1 Codex family from OpenAI, and Gemini 3.5/3.6 Flash from Google, alongside the retired Gemini 3.1 Pro. We’ll walk through the specs, the premium request multipliers that range from 0.33x to 15x, the pricing tiers, the benchmark scores, and a migration path for anyone still pinned to a model that no longer exists.
+...
+| Model | Vendor | Copilot status (Sept 2026) | Context window | Max output | Premium multiplier | Input $/M tokens | Output $/M tokens | Coding benchmark |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Claude Opus 4.7 | Anthropic | Available (Pro+/Business/Enterprise) | 1M tokens | 128K tokens | 15x | $5.00 | $25.00 | CursorBench 70% |
+| Claude Opus 5 | Anthropic | Available (replaces Opus 4.5) | 1M tokens | 128K tokens | Not yet standardized | Not disclosed | Not disclosed | Not disclosed |
+| Claude Sonnet 4.0 | Anthropic | Available | Not disclosed | Not disclosed | 1x | Not disclosed | Not disclosed | Not disclosed |
+| Claude Haiku 4.5 | Anthropic | Available (cloud agent) | Not disclosed | Not disclosed | 0.33x (mini tier) | Not disclosed | Not disclosed | Not disclosed |
+| GPT-5.1 | OpenAI | Available | 400K tokens | 128K tokens | 1x | Not disclosed | Not disclosed | SWE-bench Verified 76.3% |
+| GPT-5.1 Codex | OpenAI | Available | 400K tokens | 128K tokens | 1x | $1.25 | $10.00 | SWE-bench Verified ~73.7% |
+...
+| GPT-5.1 Codex Mini | OpenAI | Available | 400K tokens | 128K tokens | 0.33x (mini tier) | $0.25 | $2.00 | Not disclosed |
+| GPT-5.2 | OpenAI | Available | Not disclosed | Not disclosed | 1x | Not disclosed | Not disclosed | Not disclosed |
+...
+| Gemini 3.5 Flash | Google | Available | 1M tokens | 64K tokens | Not yet standardized | Not disclosed | Not disclosed | SWE-bench Pro 55.1% |
+...
+| Gemini 3.6 Flash | Google | Available (replaces Gemini 3.1 Pro) | 1M tokens | 64K tokens | Not yet standardized | $1.50 | $7.50 | SWE-bench Pro 58.7% |
+...
+| Gemini 3.1 Pro | Google | Retired Sept 1, 2026 | Not disclosed | Not disclosed | 1x (while active) | Not disclosed | Not disclosed | SWE-bench Pro 54.2% |
+...
+OpenAI split its GPT-5.1 line into a general-purpose model and a coding-tuned Codex variant, and the split shows up clearly in GitHub Copilot’s pricing. Both GPT-5.1 and GPT-5.1 Codex share a 400,000-token context window with up to 128,000 tokens of output, but the Codex variant is priced far lower for the same coding workloads: $1.25 per million input tokens and $10 per million output tokens, versus base GPT-5.1 pricing that OpenAI has not broken out separately in its public model comparison tables.
+...
+Benchmark-wise, OpenAI’s own developer materials put GPT-5.1 at a 76.3% score on SWE-bench Verified across all 500 problems, a jump from GPT-5’s 72.8% on the same test. Third-party benchmark aggregator BenchLM lists GPT-5.1 Codex specifically closer to 73.7% on the same benchmark, a gap that likely reflects the Codex variant trading a sliver of raw reasoning for speed and cost efficiency on day-to-day coding tasks rather than open-ended problem sets.
+...
+GPT-5.1 Codex Mini and GPT-5 mini both slot into Copilot’s cheapest tier: a 0.33x premium multiplier, the same 400K context window, and API pricing of $0.25 per million input tokens and $2.00 per million output tokens. For autocomplete-style suggestions and short chat exchanges, this is where most day-to-day Copilot usage should probably live, reserving the pricier models for the handful of tasks that genuinely need deeper reasoning.
+...
+| Model | Benchmark | Score | Source |
+| --- | --- | --- | --- |
+| GPT-5.1 (base) | SWE-bench Verified | 76.3% | OpenAI developer announcement |
+| GPT-5 (base, prior gen) | SWE-bench Verified | 72.8% | OpenAI developer announcement |
+| GPT-5.1 Codex | SWE-bench Verified | ~73.7% | BenchLM model catalog |
+| Claude Opus 4.7 | CursorBench | 70% | Third-party benchmark summary |
+| Gemini 3.6 Flash | SWE-bench Pro | 58.7% | Google DeepMind model card |
+| Gemini 3.5 Flash | SWE-bench Pro | 55.1% | Google DeepMind model card |
+| Gemini 3.1 Pro (retired) | SWE-bench Pro | 54.2% | Google DeepMind model card |
+| Gemini 3.6 Flash | DeepSWE v1.1 | 49% | Google DeepMind model card |
+| Gemini 3.5 Flash | DeepSWE v1.1 | 37% | Google DeepMind model card |
+| Gemini 3.1 Pro (retired) | DeepSWE v1.1 | 12% | Google DeepMind model card |
+| Gemini 3.6 Flash | OSWorld Verified | 83% | Google DeepMind model card |
+...
+The sticker price of a GitHub Copilot plan tells you almost nothing about what you can actually do with it, because every model interaction is converted into a multiple of a single premium request. Microsoft’s own developer guidance breaks the current multiplier tiers into three bands: mini models at 0.33x, mid-tier models including GPT-5.1, GPT-5.1 Codex, GPT-5.2, Claude Sonnet 4.0, and Gemini 3 Pro at 1x, and Claude Opus 4.5 at 3x. Claude Opus 4.7 sits above all of them at 15x, a rate that made it the most expensive model in the entire picker when it was pulled from the Pro tier in April 2026.
+...
+and short chat questions: GPT-5.1 Codex Mini or Claude Haiku 4.5, both at the 0.33x mini multiplier, keep your monthly allowance mostly intact for higher-value
+...
+- Standard feature development and bug fixes: GPT-5.1 Codex at 1x offers the best documented price-to-benchmark ratio in the current lineup, at $1.25/$10 per million tokens against a ~73.7% SWE-bench Verified score.
+...
+- Long-context refactors across a large codebase: Gemini 3.6 Flash’s 1M-token window and $1.50/$7.50 pricing make it the cheapest way to hand a model an entire repository at once, and its DeepSWE v1.1 score of 49% suggests it can follow through on multi-file changes better than the model it replaced.
+...
+GPT-5.1 / GPT-5.1 Codex family (OpenAI)
+...
+- Pros: Highest documented SWE-bench Verified score in this lineup at 76.3% for the base model, Codex variant priced aggressively at $1.25/$10 per million tokens, mini variant available at 0.33x.
+- Cons: Benchmark scores vary by variant and aren’t always broken out clearly by OpenAI, and the 400K context window is smaller than Claude’s or Gemini’s 1M-token ceiling.
+...
+There is no single best GitHub Copilot model in September 2026, only a best model for a given budget and task combination, and the data above supports a fairly clear default strategy. For most day-to-day coding, GPT-5.1 Codex delivers the strongest documented benchmark-to-price ratio at 1x, with a SWE-bench Verified score near 73.7% for $1.25/$10 per million tokens. Teams that need to hand a model an entire large repository should default to Gemini 3.6 Flash for its 1M-token window at the lowest per-token price of the group. Claude Opus 4.7 remains the right call only for the minority of tasks that genuinely need its reasoning depth, given its 15x cost.
+...
+What AI models does GitHub Copilot support as of September 2026? The current lineup includes Claude Opus 4.7, Claude Opus 5, Claude Sonnet 4.0, Claude Haiku 4.5, GPT-5.1, GPT-5.1 Codex, GPT-5.1 Codex Mini, GPT-5.2, and Gemini 3.5/3.6/3.7 Flash, per GitHub’s supported models documentation.
+...
+Which GitHub Copilot model is best for coding specifically? GPT-5.1 Codex currently offers the strongest publicly documented SWE-bench Verified score relative to its price among 1x-multiplier models, making it a reasonable default for general coding work, while Claude Opus 4.7 remains stronger for complex architectural reasoning at a much higher cost.
+...
+Is Claude Opus 4.7 worth its 15x premium request multiplier? For routine autocomplete or short chat questions, no. A 0.33x mini model or 1x mid-tier model is more cost-efficient. For genuinely difficult architecture or debugging problems where reasoning depth matters more than cost, Opus 4.7’s 1M-token context and strong CursorBench score can justify the premium.
+
+---
+
+Title: Best LLM for GitHub Copilot (August 2026): Rankings, Pricing and Benchmarks | TokenCost
+URL: https://tokencost.app/best-llm-for-copilot
+Published: N/A
+Author: Ankit Aglawe
+Highlights:
+GitHub Copilot has evolved from a GPT-only autocomplete tool into a multi-model platform with a model picker, agent mode, and workspace-aware features. Copilot offers frontier models from OpenAI (the GPT-5.5 generation and the code-focused GPT-5.3 Codex), Anthropic (Claude Sonnet 5 and the Claude Opus line), and Google (Gemini 3.1 Pro and Gemini 3 Flash) directly through its interface. OpenAI's GPT-5.6 family is now generally available on the OpenAI API, but Copilot exposes models on its own schedule and had not surfaced the 5.6 tiers in its picker when this page was last reviewed.
+...
+The recent story has been Anthropic's momentum. Claude Sonnet 5, launched June 30 with a 1M-token context window at $2/$10 per 1M tokens, has quickly become the community favorite for agent mode and multi-file refactors, scoring 85.2 on SWE-bench Verified. GPT models still enjoy a home-field advantage with tighter native integration, and GPT-5.5 remains the default flagship for many Copilot workflows. Our rankings reflect performance specifically within Copilot's ecosystem, including how well each model handles Copilot's prompt optimization, context management, and caching behind the scenes.
+...
+We ranked models based on GitHub documentation, community feedback, code completion quality, agent mode effectiveness, and how well each model handles Copilot's workspace-aware features. Pricing reflects the underlying API costs that inform Copilot's model allocation and usage limits.
+...
+## Top Models for GitHub Copilot — August 2026
+...
+Claude Opus 5 Anthropic
+...
+Best Overall Both suites · 92.5
+...
+Anthropic's flagship and the top scorer on SWE-bench Verified (96.0) among generally available models in this lineup. Opus 5 is the model to reach for when agent mode tackles the hardest debugging and architecture work, at $5/$25 with a full 1M context window — the same rate Opus 4.8 charges for an 88.6.
+...
+Claude Sonnet 5 Anthropic
+...
+Best value Both suites · 83.6 Non-default tier
+...
+The strongest all-around pick in Copilot. Sonnet 5 pairs a 1M context window with an 85.2 SWE-bench Verified score at a standard $2/$10, which makes it even harder to beat for agent mode and multi-file refactors.
+...
+GPT-5.5 OpenAI
+...
+Longest context Terminal-Bench only · 80.5
+...
+1.1M
+...
+OpenAI's flagship in general availability and the model with the deepest native integration in the Copilot ecosystem. GPT-5.5 topped the Artificial Analysis Intelligence Index at its April launch and handles workspace-aware features with a 1M+ context window, though at $5/$30 it is the priciest mainstream option here.
+...
+GPT-5.3 Codex OpenAI
+...
+Purpose-built for code generation with a 400K context window. GPT-5.3 Codex is tuned specifically for the kinds of completions and edits that Copilot handles, making it a strong pick for developers who want a code-specialized model at moderate pricing.
+...
+Order is computed, not hand-picked. Each model is scored on the published pass-rate suites it has (SWE-bench Verified 0.65, Terminal-Bench 2.1 0.35), renormalised over the suites present, then charged 1 quality point for every doubling of its blended price (3:1 input-to-output tokens). Models with no published score are never given one: they are listed after every scored model, ordered by context window, and labelled as unscored. Copilot's picker only offers OpenAI, Anthropic and Google models, so the field is restricted to those three. Completion and chat quality lead the weighting; API price presses only lightly — 1 point of pass rate per doubling — because a Copilot subscription, not the reader, pays the per-token bill. See the full ranking method.
+
+---
+
+Title: GPT, Claude, Gemini… which model should you pick in GitHub Copilot? It's not rocket science! — Sense of [Blog]
+URL: https://blog.senseof.tech/2026/06/25/which-model-to-choose-github-copilot/
+Published: 2026-06-25T00:00:00.000Z
+Author: AClerbois
+Highlights:
+You open GitHub Copilot’s model picker and land on a wine list: GPT-5.5, Claude Opus 4.8, Gemini 3.5 Flash, Haiku, Sonnet, mini, nano, Codex… Which one do you take? The newest? The priciest? The one with the biggest number?
+...
+Spoiler: the question “which model is the best?” is the wrong question. The right one is “ the best for what?”. We’re going to take the machinery apart — why one model is not another — and then I’ll give you a dead-simple method to find yours, numbers included. And you’ll see: it’s not rocket science.
+...
+Hence the ranges you see everywhere: nano, mini, Flash, Haiku on one side (small engines, near-instant answers), Opus and the big GPTs on the other (big engines, smarter but slower and pricier).
+...
+That’s why some models in the picker are code specialists: GPT-5.3-Codex, Raptor mini (a GPT-5 mini re-trained specifically for completion), Kimi-K2.7-Code… At equal size, a specialist often beats a generalist on its home turf. Just like a delivery driver knows the back alleys better than an F1 pilot.
+...
+limit on the text
+...
+can “see” at once:
+...
+. Small window
+...
+now reach one million tokens
+...
+in VS Code and Copilot CLI
+...
+Since June 1, 2026, Copilot has moved to usage-based billing: every exchange consumes AI Credits (1 credit = $0.01) based on the tokens sent to the model, generated by it, and cached. Three things to know, orders of magnitude as I write (official pricing):
+...
+- The gap between ranges is huge: ~$0.20–0.50 per million input tokens for the light models, ~$2–2.50 for the versatile ones, $4–10 for the powerful ones — and the top of the range, Claude Fable 5, lists at $10 in and $50 out, double Claude Opus 4.8. A factor of fifty.
+- Output costs 4–10× more than input: a chatty model comes at a price.
+- Caching cuts input cost by about 90%: staying in one well-set-up conversation is cheaper than resending everything each time.
+...
+Here is the current lineup, sorted by vocation. The list moves every month (models arrive, others retire): the reference remains the official list and the official comparison.
+...
+| The range | The models (excerpt) | Built for |
+| --- | --- | --- |
+| The city cars — light, quick, frugal | Claude Haiku 4.5, Gemini 3.5 Flash, GPT-5 mini / 5.4 nano | Quick questions, small edits, lightweight prototyping |
+| The sedans — the everyday all-rounders | Claude Sonnet 5 (and 4.6), GPT-5.4, MAI-Code-1-Flash | The bulk of the work: coding, explaining, testing |
+| The semi-trailers — deep reasoning | Claude Opus 4.8, GPT-5.5, Gemini 3.1 Pro | Multi-file refactorings, gnarly debugging, architecture decisions |
+| The oversize convoy — the frontier class | Claude Fable 5 | Long autonomous missions: migrations, entire agent work sites |
+| The specialized vans — fine-tuned for code | GPT-5.3-Codex, Raptor mini, Kimi-K2.7-Code | Pure engineering tasks, razor-sharp completion |
+...
+Bonus: some models also accept images (GPT-5 mini, Claude Sonnet 4.6, Gemini 3.1 Pro) — handy for starting from a screenshot or a mockup.
+...
+Added to the Copilot catalogue on June 9, Claude Fable 5 opens a category above the semi-trailers: Anthropic’s Mythos class, the first member of the Claude 5 family. Its vocation is not to answer a question faster, but to hold a long mission autonomously — less a chat assistant than a senior colleague you hand an entire work site to.
+...
+- Availability: Pro+, Business and Enterprise plans — and on the organization side, the policy is off by default; an admin has to enable it in the Copilot settings.
+- Price: billed at the provider’s list price, $10 per million input tokens and $50 for output — double Claude Opus 4.8. The oversize convoy comes at a cost.
+- One quirk: as part of its reinforced safeguards, Anthropic retains prompts and outputs for up to 30 days for its safety classifiers.
+...
+The advice stays the same as for the rest of the parking lot: measure it in your grid. On a sedan task, Fable 5 is just slower and much more expensive; on a genuine long-haul mission, that’s where it earns its size.
+...
+One per range is enough to start: a city car, a sedan, a semi-trailer. No need to test twelve models — you’re comparing ranges, not badges
+...
+| Task | City car (Haiku 4.5) | Sedan (Sonnet 5) | Semi (Opus 4.8) |
+| --- | --- | --- | --- |
+| Fix a broken test | 4/5 · 1 exchange · ~2 credits | 5/5 · 1 exchange · ~8 credits | 5/5 · 1 exchange · ~40 credits |
+| Add a feature | 2/5 · 4 exchanges · ~10 credits | 4/5 · 2 exchanges · ~20 credits | 5/5 · 1 exchange · ~45 credits |
+| Architecture question | 1/5 · gave up | 3/5 · 3 exchanges · ~30 credits | 5/5 · 1 exchange · ~60 credits |
+...
+Read the grid row by row, never as a global score. In the example above, the verdict is not “Opus wins”: it’s “Haiku is plenty for errands (20× cheaper!), Sonnet is my sedan, and Opus is worth every cent on architecture — and only there”.
+...
+- By default: the sedan. An all-rounder covers 80% of your days.
+- For errands: the city car. Quick question, small edit → light model, instant answer, negligible cost.
+- When you’re stuck: the semi-trailer. Two round trips with no progress on a complex problem? Move up a range, state the problem properly once. Then come back down.
+- For the long autonomous mission: the oversize convoy. The frontier class (Fable 5) takes on entire work sites — keep the credit meter in sight.
+- If your daily work is pure code: try a specialized van.
+...
+One model is not another: not because marketing says so, but because the engine size, the training, the reasoning, the trunk and the fuel consumption differ — and now you know how to read the spec sheet.
+
+---
+
+Title: GitHub Copilot Model Selector | The Copilot Stack
+URL: https://thecopilotstack.com/tools/copilot-model-selector/
+Published: N/A
+Author: N/A
+Highlights:
+Model data verified against GitHub's supported-models page, model-comparison page and changelog on 2026-09-01. Availability is the fastest-moving fact on this site — six models were retired on a single day this year while the reference pages still listed them — so check the model dataset if you are making a decision that depends on one.
+...
+Auto model selection carries a 10% discount and excludes models blocked by administrator policy. GitHub does not publish which models it routes to, so this tool does not guess.
+...
+5 models sit
+...
+| Model | Provider | Status | Retirement |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | Generally available | None announced |
+| GPT-5.3-Codex | OpenAI | Generally available | None announced |
+| GPT-5.6 Terra | OpenAI | Generally available | None announced |
+| MAI-Code-1-Flash | Microsoft | Generally available | Announced for 2026-09-10 — GitHub suggests MAI-Code-1.1-Flash |
+| Raptor mini | Fine-tuned GPT-5 mini | Generally available | Announced for 2026-09-01 — GitHub suggests MAI-Code-1-Flash |
+...
+| Model | Provider | Status | Retirement |
+| --- | --- | --- | --- |
+| GPT-5.6 Luna | OpenAI | Generally available | None announced |
+| Claude Haiku 4.5 | Anthropic | Generally available | None announced |
+| MAI-Code-1-Flash | Microsoft | Generally available | Announced for 2026-09-10 — GitHub suggests MAI-Code-1.1-Flash |
+...
+6 models sit in this grouping.
+...
+| Model | Provider | Status | Retirement |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | Generally available | None announced |
+| GPT-5.5 | OpenAI | Generally available | None announced |
+| GPT-5.6 Sol | OpenAI | Generally available | None announced |
+| Claude Opus 4.7 | Anthropic | Generally available | None announced |
+| Claude Sonnet 4.6 | Anthropic | Generally available | Announced for 2026-09-01 — GitHub suggests Claude Sonnet 5 |
+| Gemini 3.1 Pro | Google | Preview | Announced for 2026-09-01 — GitHub suggests Gemini 3.6 Flash |
+...
+| Model | Provider | Status | Retirement |
+| --- | --- | --- | --- |
+| GPT-5 mini | OpenAI | Generally available | None announced |
+| Claude Sonnet 4.6 | Anthropic | Generally available | Announced for 2026-09-01 — GitHub suggests Claude Sonnet 5 |
+| Gemini 3.1 Pro | Google | Preview | Announced for 2026-09-01 — GitHub suggests Gemini 3.6 Flash |

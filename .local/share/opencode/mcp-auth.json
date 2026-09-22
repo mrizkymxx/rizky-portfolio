@@ -1,0 +1,14 @@
+{
+  "vercel": {
+    "tokens": {
+      "accessToken": "vca_6toRaaQhbZ02WiZFN5RBq34EoQFGrkMZZWsbM8KDXuXzkDKV5V4F8ZEp",
+      "refreshToken": "vcr_4hEOnsHBrZHrFexE1dzJ3nSVMUkeI7W294SzHLVDcGaoN9b2f3279W2p",
+      "expiresAt": 1790092263.662,
+      "scope": "openid offline_access"
+    },
+    "clientInfo": {
+      "clientId": "cl_WbdtcToDrMR4ZHvXLGAmbfoYCsQjMeS8"
+    },
+    "serverUrl": "https://mcp.vercel.com"
+  }
+}

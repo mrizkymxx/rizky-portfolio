@@ -1,0 +1,47 @@
+{
+   "checksum": "cb0e793137e009d739ec1eece09c0e9c",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13434247760304308",
+            "date_last_used": "0",
+            "guid": "87fc982a-320c-4a85-8637-7a26c9961903",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New Tab",
+            "type": "url",
+            "url": "brave://newtab/"
+         } ],
+         "date_added": "13434247746251157",
+         "date_last_used": "0",
+         "date_modified": "13434247760304308",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13434247746251157",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13434247746251157",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

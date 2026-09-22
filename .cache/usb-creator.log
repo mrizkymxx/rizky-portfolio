@@ -1,0 +1,5 @@
+usb-creator 2026-09-19 06:05:57,872 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2026-09-19 06:05:58,313 (DEBUG) backend.py:66: detect_devices
+usb-creator 2026-09-19 06:05:58,316 (DEBUG) backend.py:106: drive added: /org/freedesktop/UDisks2/block_devices/sda
+usb-creator 2026-09-19 06:05:58,317 (DEBUG) frontend.py:204: add_target: /org/freedesktop/UDisks2/block_devices/sda
+usb-creator 2026-09-19 06:06:00,935 (DEBUG) backend.py:181: cancel_install

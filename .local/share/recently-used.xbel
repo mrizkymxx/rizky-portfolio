@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/rizky" added="2026-09-18T23:04:59.570227Z" modified="2026-09-18T23:04:59.570247Z" visited="2026-09-18T23:04:59.570230Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2026-09-18T23:04:59.570239Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/rizky/data/projects/jurnal-sinta2/jurnal.pdf" added="2026-09-19T09:52:23.817703Z" modified="2026-09-19T09:53:20.000497Z" visited="2026-09-19T09:52:23.817714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;evince %U&apos;" modified="2026-09-19T09:53:19.165494Z" count="2"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2026-09-19T09:53:20.000493Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/rizky/data/projects/jurnal-sinta2/jister.pdf" added="2026-09-19T10:00:55.047453Z" modified="2026-09-19T10:00:55.832770Z" visited="2026-09-19T10:00:55.047454Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;evince %U&apos;" modified="2026-09-19T10:00:55.047461Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2026-09-19T10:00:55.832766Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="gphoto2://Apple_Inc._iPhone_00008020001D456C02BB002E/202609__/KWGX6297.JPG" added="2026-09-19T11:11:51.485642Z" modified="2026-09-19T11:11:54.419625Z" visited="2026-09-19T11:11:51.485659Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;eog %U&apos;" modified="2026-09-19T11:11:51.485669Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2026-09-19T11:11:54.419622Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="afc://00008020-001D456C02BB002E:3/org.localsend.localsendApp/List%20API%20Key.txt" added="2026-09-19T11:20:43.287915Z" modified="2026-09-19T11:20:44.546541Z" visited="2026-09-19T11:20:43.287917Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gedit %U&apos;" modified="2026-09-19T11:20:43.287920Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2026-09-19T11:20:44.546538Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

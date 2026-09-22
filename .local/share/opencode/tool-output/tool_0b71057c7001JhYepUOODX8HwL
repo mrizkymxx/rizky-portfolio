@@ -1,0 +1,1468 @@
+                                                                                                                 GitHub - alvinunreal/oh-my-opencode-slim: Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks · GitHub                                             
+
+[Skip to content](#start-of-content)     
+
+            
+
+## Navigation Menu
+
+[](/)
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Falvinunreal%2Foh-my-opencode-slim)
+
+Appearance settings
+
+-   Platform
+    
+    -   AI CODE CREATION
+        
+        -   [GitHub CopilotWrite better code with AI](https://github.com/features/copilot)
+        -   [GitHub Copilot appDirect agents from issue to merge](https://github.com/features/ai/github-app)
+        -   [MCP RegistryIntegrate external tools](https://github.com/mcp)
+        
+    -   DEVELOPER WORKFLOWS
+        
+        -   [ActionsAutomate any workflow](https://github.com/features/actions)
+        -   [CodespacesInstant dev environments](https://github.com/features/codespaces)
+        -   [IssuesPlan and track work](https://github.com/features/issues)
+        -   [Code ReviewManage code changes](https://github.com/features/code-review)
+        -   [Code QualityEnforce quality at merge](https://github.com/features/code-quality)
+        
+    -   APPLICATION SECURITY
+        
+        -   [GitHub Advanced SecurityFind and fix vulnerabilities](https://github.com/security/advanced-security)
+        -   [Code securitySecure your code as you build](https://github.com/security/advanced-security/code-security)
+        -   [Secret protectionStop leaks before they start](https://github.com/security/advanced-security/secret-protection)
+        
+    -   EXPLORE
+        
+        -   [Why GitHub](https://github.com/why-github)
+        -   [Documentation](https://docs.github.com)
+        -   [Blog](https://github.blog)
+        -   [Changelog](https://github.blog/changelog)
+        -   [Marketplace](https://github.com/marketplace)
+        
+    
+    [View all features](https://github.com/features)
+    
+-   Solutions
+    
+    -   BY COMPANY SIZE
+        
+        -   [Enterprises](https://github.com/enterprise)
+        -   [Small and medium teams](https://github.com/team)
+        -   [Startups](https://github.com/enterprise/startups)
+        -   [Nonprofits](https://github.com/solutions/industry/nonprofits)
+        
+    -   BY USE CASE
+        
+        -   [App Modernization](https://github.com/solutions/use-case/app-modernization)
+        -   [DevSecOps](https://github.com/solutions/use-case/devsecops)
+        -   [DevOps](https://github.com/solutions/use-case/devops)
+        -   [CI/CD](https://github.com/solutions/use-case/ci-cd)
+        -   [View all use cases](https://github.com/solutions/use-case)
+        
+    -   BY INDUSTRY
+        
+        -   [Healthcare](https://github.com/solutions/industry/healthcare)
+        -   [Financial services](https://github.com/solutions/industry/financial-services)
+        -   [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        -   [Government](https://github.com/solutions/industry/government)
+        -   [View all industries](https://github.com/solutions/industry)
+        
+    
+    [View all solutions](https://github.com/solutions)
+    
+-   Resources
+    
+    -   EXPLORE BY TOPIC
+        
+        -   [AI](https://github.com/resources/articles?topic=ai)
+        -   [Software Development](https://github.com/resources/articles?topic=software-development)
+        -   [DevOps](https://github.com/resources/articles?topic=devops)
+        -   [Security](https://github.com/resources/articles?topic=security)
+        -   [View all topics](https://github.com/resources/articles)
+        
+    -   EXPLORE BY TYPE
+        
+        -   [Customer stories](https://github.com/customer-stories)
+        -   [Events & webinars](https://github.com/resources/events)
+        -   [Ebooks & reports](https://github.com/resources/whitepapers)
+        -   [Business insights](https://github.com/solutions/executive-insights)
+        -   [GitHub Skills](https://skills.github.com)
+        
+    -   SUPPORT & SERVICES
+        
+        -   [Documentation](https://docs.github.com)
+        -   [Customer support](https://support.github.com)
+        -   [Community forum](https://github.com/orgs/community/discussions)
+        -   [Trust center](https://github.com/trust-center)
+        -   [Partners](https://github.com/partners)
+        
+    
+    [View all resources](https://github.com/resources)
+    
+-   Open Source
+    
+    -   COMMUNITY
+        
+        -   [GitHub SponsorsFund open source developers](https://github.com/open-source/sponsors)
+        
+    -   PROGRAMS
+        
+        -   [Security Lab](https://securitylab.github.com)
+        -   [Maintainer Community](https://maintainers.github.com)
+        -   [GitHub Stars](https://stars.github.com)
+        -   [Archive Program](https://archiveprogram.github.com)
+        
+    -   REPOSITORIES
+        
+        -   [Topics](https://github.com/topics)
+        -   [Trending](https://github.com/trending)
+        -   [Collections](https://github.com/collections)
+        
+    
+-   Enterprise
+    
+    -   ENTERPRISE SOLUTIONS
+        
+        -   [Enterprise platformAI-powered developer platform](https://github.com/enterprise)
+        
+    -   AVAILABLE ADD-ONS
+        
+        -   [GitHub Advanced SecurityEnterprise-grade security features](https://github.com/security/advanced-security)
+        -   [Copilot for BusinessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        -   [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+        
+    
+-   [Pricing](https://github.com/pricing)
+
+Search/
+
+[Sign in](/login?return_to=https%3A%2F%2Fgithub.com%2Falvinunreal%2Foh-my-opencode-slim)
+
+[Sign up](/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=alvinunreal%2Foh-my-opencode-slim)
+
+Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert
+
+[alvinunreal](/alvinunreal) / **[oh-my-opencode-slim](/alvinunreal/oh-my-opencode-slim)** Public
+
+-   [Notifications](/login?return_to=%2Falvinunreal%2Foh-my-opencode-slim) You must be signed in to change notification settings
+-   [Fork 531](/login?return_to=%2Falvinunreal%2Foh-my-opencode-slim)
+-   [Star 9k](/login?return_to=%2Falvinunreal%2Foh-my-opencode-slim)
+    
+
+-   [Code](/alvinunreal/oh-my-opencode-slim)
+-   [Issues 34](/alvinunreal/oh-my-opencode-slim/issues)
+-   [Pull requests 12](/alvinunreal/oh-my-opencode-slim/pulls)
+-   [Discussions](/alvinunreal/oh-my-opencode-slim/discussions)
+-   [Actions](/alvinunreal/oh-my-opencode-slim/actions)
+-   [Projects](/alvinunreal/oh-my-opencode-slim/projects)
+-   [Security and quality 0](/alvinunreal/oh-my-opencode-slim/security)
+-   [Insights](/alvinunreal/oh-my-opencode-slim/pulse)
+
+Additional navigation options
+
+-   [Code](/alvinunreal/oh-my-opencode-slim)
+-   [Issues](/alvinunreal/oh-my-opencode-slim/issues)
+-   [Pull requests](/alvinunreal/oh-my-opencode-slim/pulls)
+-   [Discussions](/alvinunreal/oh-my-opencode-slim/discussions)
+-   [Actions](/alvinunreal/oh-my-opencode-slim/actions)
+-   [Projects](/alvinunreal/oh-my-opencode-slim/projects)
+-   [Security and quality](/alvinunreal/oh-my-opencode-slim/security)
+-   [Insights](/alvinunreal/oh-my-opencode-slim/pulse)
+
+ [](/alvinunreal/oh-my-opencode-slim)
+
+master
+
+[Branches](/alvinunreal/oh-my-opencode-slim/branches)[Tags](/alvinunreal/oh-my-opencode-slim/tags)
+
+[](/alvinunreal/oh-my-opencode-slim/branches)[](/alvinunreal/oh-my-opencode-slim/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Latest commit
+
+## History
+
+[2,136 Commits](/alvinunreal/oh-my-opencode-slim/commits/master/)
+
+[](/alvinunreal/oh-my-opencode-slim/commits/master/)2,136 Commits
+
+## Folders and files
+
+Name
+
+Name
+
+Last commit message
+
+Last commit date
+
+[.agents/skills](/alvinunreal/oh-my-opencode-slim/tree/master/.agents/skills "This path skips through empty directories")
+
+[.agents/skills](/alvinunreal/oh-my-opencode-slim/tree/master/.agents/skills "This path skips through empty directories")
+
+[.github](/alvinunreal/oh-my-opencode-slim/tree/master/.github ".github")
+
+[.github](/alvinunreal/oh-my-opencode-slim/tree/master/.github ".github")
+
+[.out-of-scope](/alvinunreal/oh-my-opencode-slim/tree/master/.out-of-scope ".out-of-scope")
+
+[.out-of-scope](/alvinunreal/oh-my-opencode-slim/tree/master/.out-of-scope ".out-of-scope")
+
+[.slim](/alvinunreal/oh-my-opencode-slim/tree/master/.slim ".slim")
+
+[.slim](/alvinunreal/oh-my-opencode-slim/tree/master/.slim ".slim")
+
+[companion](/alvinunreal/oh-my-opencode-slim/tree/master/companion "companion")
+
+[companion](/alvinunreal/oh-my-opencode-slim/tree/master/companion "companion")
+
+[docs](/alvinunreal/oh-my-opencode-slim/tree/master/docs "docs")
+
+[docs](/alvinunreal/oh-my-opencode-slim/tree/master/docs "docs")
+
+[img](/alvinunreal/oh-my-opencode-slim/tree/master/img "img")
+
+[img](/alvinunreal/oh-my-opencode-slim/tree/master/img "img")
+
+[scripts](/alvinunreal/oh-my-opencode-slim/tree/master/scripts "scripts")
+
+[scripts](/alvinunreal/oh-my-opencode-slim/tree/master/scripts "scripts")
+
+[src](/alvinunreal/oh-my-opencode-slim/tree/master/src "src")
+
+[src](/alvinunreal/oh-my-opencode-slim/tree/master/src "src")
+
+[.all-contributorsrc](/alvinunreal/oh-my-opencode-slim/blob/master/.all-contributorsrc ".all-contributorsrc")
+
+[.all-contributorsrc](/alvinunreal/oh-my-opencode-slim/blob/master/.all-contributorsrc ".all-contributorsrc")
+
+[.gitignore](/alvinunreal/oh-my-opencode-slim/blob/master/.gitignore ".gitignore")
+
+[.gitignore](/alvinunreal/oh-my-opencode-slim/blob/master/.gitignore ".gitignore")
+
+[AGENTS.md](/alvinunreal/oh-my-opencode-slim/blob/master/AGENTS.md "AGENTS.md")
+
+[AGENTS.md](/alvinunreal/oh-my-opencode-slim/blob/master/AGENTS.md "AGENTS.md")
+
+[CONTEXT.md](/alvinunreal/oh-my-opencode-slim/blob/master/CONTEXT.md "CONTEXT.md")
+
+[CONTEXT.md](/alvinunreal/oh-my-opencode-slim/blob/master/CONTEXT.md "CONTEXT.md")
+
+[LICENSE](/alvinunreal/oh-my-opencode-slim/blob/master/LICENSE "LICENSE")
+
+[LICENSE](/alvinunreal/oh-my-opencode-slim/blob/master/LICENSE "LICENSE")
+
+[README.ja-JP.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.ja-JP.md "README.ja-JP.md")
+
+[README.ja-JP.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.ja-JP.md "README.ja-JP.md")
+
+[README.ko-KR.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.ko-KR.md "README.ko-KR.md")
+
+[README.ko-KR.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.ko-KR.md "README.ko-KR.md")
+
+[README.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.md "README.md")
+
+[README.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.md "README.md")
+
+[README.zh-CN.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.zh-CN.md "README.zh-CN.md")
+
+[README.zh-CN.md](/alvinunreal/oh-my-opencode-slim/blob/master/README.zh-CN.md "README.zh-CN.md")
+
+[SECURITY.md](/alvinunreal/oh-my-opencode-slim/blob/master/SECURITY.md "SECURITY.md")
+
+[SECURITY.md](/alvinunreal/oh-my-opencode-slim/blob/master/SECURITY.md "SECURITY.md")
+
+[biome.json](/alvinunreal/oh-my-opencode-slim/blob/master/biome.json "biome.json")
+
+[biome.json](/alvinunreal/oh-my-opencode-slim/blob/master/biome.json "biome.json")
+
+[bun.lock](/alvinunreal/oh-my-opencode-slim/blob/master/bun.lock "bun.lock")
+
+[bun.lock](/alvinunreal/oh-my-opencode-slim/blob/master/bun.lock "bun.lock")
+
+[bunfig.toml](/alvinunreal/oh-my-opencode-slim/blob/master/bunfig.toml "bunfig.toml")
+
+[bunfig.toml](/alvinunreal/oh-my-opencode-slim/blob/master/bunfig.toml "bunfig.toml")
+
+[codemap.md](/alvinunreal/oh-my-opencode-slim/blob/master/codemap.md "codemap.md")
+
+[codemap.md](/alvinunreal/oh-my-opencode-slim/blob/master/codemap.md "codemap.md")
+
+[herdr-plugin.toml](/alvinunreal/oh-my-opencode-slim/blob/master/herdr-plugin.toml "herdr-plugin.toml")
+
+[herdr-plugin.toml](/alvinunreal/oh-my-opencode-slim/blob/master/herdr-plugin.toml "herdr-plugin.toml")
+
+[oh-my-opencode-slim.schema.json](/alvinunreal/oh-my-opencode-slim/blob/master/oh-my-opencode-slim.schema.json "oh-my-opencode-slim.schema.json")
+
+[oh-my-opencode-slim.schema.json](/alvinunreal/oh-my-opencode-slim/blob/master/oh-my-opencode-slim.schema.json "oh-my-opencode-slim.schema.json")
+
+[package.json](/alvinunreal/oh-my-opencode-slim/blob/master/package.json "package.json")
+
+[package.json](/alvinunreal/oh-my-opencode-slim/blob/master/package.json "package.json")
+
+[skills-lock.json](/alvinunreal/oh-my-opencode-slim/blob/master/skills-lock.json "skills-lock.json")
+
+[skills-lock.json](/alvinunreal/oh-my-opencode-slim/blob/master/skills-lock.json "skills-lock.json")
+
+[tsconfig.json](/alvinunreal/oh-my-opencode-slim/blob/master/tsconfig.json "tsconfig.json")
+
+[tsconfig.json](/alvinunreal/oh-my-opencode-slim/blob/master/tsconfig.json "tsconfig.json")
+
+View all files
+
+## Repository files navigation
+
+-   [README](#)
+-   [MIT license](#)
+-   [Security](#)
+
+More items
+
+[![oh-my-opencode-slim V3 Beta Release](/alvinunreal/oh-my-opencode-slim/raw/master/img/v3-beta.webp)](https://github.com/alvinunreal/oh-my-opencode-slim/stargazers)
+
+### ✨ oh-my-opencode-slim ✨
+
+[](#-oh-my-opencode-slim-)
+
+*Seven divine beings emerged from the dawn of code, each an immortal master of their craft,  
+awaiting your command to forge order from chaos and build what was once thought impossible.*
+
+**Opencode Multi Agent Suite** · Mix any models · Auto delegate tasks
+
+by **Boring Dystopia Development**
+
+[![boringdystopia.ai](https://camo.githubusercontent.com/d3a4371d07b9a151aafb727677525ce5fe3b8ab69904940d29511bb46c98a426/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f626f72696e67647973746f7069612e61692d3131313131313f7374796c653d666f722d7468652d6261646765266c6f676f3d76657263656c266c6f676f436f6c6f723d7768697465)](https://boringdystopia.ai/)  [![X @alvinunreal](https://camo.githubusercontent.com/7549f41d7831567cb99393a25d24f1d47a617142659e67dcf2e685262ed8a9b3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f582d40616c76696e756e7265616c2d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d78266c6f676f436f6c6f723d7768697465)](https://x.com/alvinunreal)  [![Telegram Join channel](https://camo.githubusercontent.com/87a60af3c63231d13ea0b56af6bee11974c4a91252b078e0e2173fdaf978edba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f54656c656772616d2d4a6f696e2532306368616e6e656c2d3243413545303f7374796c653d666f722d7468652d6261646765266c6f676f3d74656c656772616d266c6f676f436f6c6f723d7768697465)](https://t.me/boringdystopiadevelopment) 
+
+**English** | [简体中文](/alvinunreal/oh-my-opencode-slim/blob/master/README.zh-CN.md) | [日本語](/alvinunreal/oh-my-opencode-slim/blob/master/README.ja-JP.md) | [한국어](/alvinunreal/oh-my-opencode-slim/blob/master/README.ko-KR.md)
+
+✦ ✦ ✦
+
+## What's This Plugin
+
+[](#whats-this-plugin)
+
+oh-my-opencode-slim is an agent orchestration plugin for OpenCode. It includes a built-in team of specialized agents that can scout a codebase, look up fresh documentation, review architecture, handle UI work, and execute well-scoped implementation tasks under one orchestrator.
+
+The main idea is simple: instead of forcing one model to do everything, the plugin routes each part of the job to the agent best suited for it, balancing **quality, speed and cost**. The Orchestrator plans the work graph, dispatches specialists as background tasks, and reconciles their results before continuing.
+
+### ✨ Highlights
+
+[](#-highlights)
+
+-   **[Seven specialized agents](#meet-the-pantheon)** - Orchestrator, Explorer, Oracle, Council, Librarian, Designer, and Fixer. Each part of the job goes to the agent best suited for it - mix any models across any providers.
+-   **[Background orchestration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/background-orchestration.md)** - the Orchestrator dispatches specialists as background tasks, tracks them, and reconciles results before continuing - parallel work by default.
+-   **[Bundled skills](#skills)** - prompt-based workflows like `deepwork`, `codemap`, `verification-planning`, and `reflect`, assigned per agent.
+-   **[Council](/alvinunreal/oh-my-opencode-slim/blob/master/docs/council.md)** - run multiple models in parallel on the same question and synthesize a single answer with `@council`.
+-   **[Companion](/alvinunreal/oh-my-opencode-slim/blob/master/docs/companion.md)** - an optional floating desktop window showing which agents are active, including parallel background specialists.
+-   **[Multiplexer integration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/multiplexer-integration.md)** - watch agents work live in Tmux, Zellij, Herdr, cmux, or kitty panes.
+-   **[Preset switching](/alvinunreal/oh-my-opencode-slim/blob/master/docs/preset-switching.md)** - swap the whole team's models at runtime with `/preset`.
+-   **[Code intelligence tools](/alvinunreal/oh-my-opencode-slim/blob/master/docs/tools.md)** - LSP tools, AST-aware search across 25 languages, and built-in MCPs for docs and GitHub code search.
+-   **[Fully customizable](/alvinunreal/oh-my-opencode-slim/blob/master/docs/configuration.md)** - custom agents, prompt overrides, per-agent skill/MCP permissions, and [project-local customization](/alvinunreal/oh-my-opencode-slim/blob/master/docs/project-local-customization.md).
+
+### What Users Say
+
+[](#what-users-say)
+
+> “Task management went from 5/10 to 8-9/10 easily. The Orchestrator sends Fixers and Explorers, and I can still talk and plan with the Orchestrator in the same session. The experience feels way smoother now.”
+> 
+> \- `vipor_idk`
+
+> “I ditched all my harnesses for this beta version of omo-slim and don't look back or miss anything. Great work and IMHO all in the right direction.”
+> 
+> \- `stephanschielke`
+
+> “I love omo-slim, and can't imagine running opencode without it. I love that I can create a Frankenstein of models... Makes the setup such a beast.”
+> 
+> \- `Capital-One3039`
+
+> “It has significantly improved my workflow... Now, it is working very smoothly, and I love it.”
+> 
+> \- `xenstar1`
+
+### Quick Start
+
+[](#quick-start)
+
+Copy and paste this prompt to your LLM agent (Claude Code, AmpCode, Cursor, etc.):
+
+```
+Install and configure oh-my-opencode-slim: https://raw.githubusercontent.com/alvinunreal/oh-my-opencode-slim/refs/heads/master/README.md
+```
+
+### Manual Installation
+
+[](#manual-installation)
+
+bunx oh-my-opencode-slim@latest install
+
+The published CLI is a Node-compatible bundle, so `npx` works too if you don't have Bun installed:
+
+npx oh-my-opencode-slim@latest install
+
+### Run from Master
+
+[](#run-from-master)
+
+Use this if you want the latest code, easier bug fixes, or a local setup for development and contributions:
+
+git clone https://github.com/alvinunreal/oh-my-opencode-slim.git ~/repos/oh-my-opencode-slim
+cd ~/repos/oh-my-opencode-slim
+bun install
+bun run build
+bun dist/cli/index.js install
+
+The installer adds the local repo path to the `plugin` array in `~/.config/opencode/opencode.json`, so OpenCode loads the plugin from that folder. To update later:
+
+cd ~/repos/oh-my-opencode-slim
+git pull
+bun install
+bun run build
+
+### Getting Started
+
+[](#getting-started)
+
+The installer generates both OpenAI and OpenCode Go presets, with OpenAI active by default.
+
+Tip
+
+Tune the models and agents for your own workflow. The defaults are only a starting point; the plugin is designed for deep flexibility and customization.
+
+To make OpenCode Go active during install, run `bunx oh-my-opencode-slim@latest install --preset=opencode-go` or change the default preset name in `~/.config/opencode/oh-my-opencode-slim.json` after installation.
+
+Then:
+
+1.  **Log in to the providers you want to use if you haven't already**:
+    
+    opencode auth login
+    
+2.  **Refresh and list the models OpenCode can see**:
+    
+    opencode models --refresh
+    
+3.  **Open your plugin config** at `~/.config/opencode/oh-my-opencode-slim.json`
+    
+4.  **Update the models you want for each agent**
+    
+
+Tip
+
+It's **recommended** to understand how background orchestration works. The **[Orchestrator prompt](https://github.com/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/orchestrator.ts#L28)** contains the scheduler rules, specialist routing logic, and thresholds for when work should be assigned to background agents. You can always delegate manually by calling a subagent via: `@agentName <task>`
+
+Tip
+
+Because background agents are now the default workflow, it is **highly recommended** to enable and configure **[Multiplexer Integration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/multiplexer-integration.md)**. It automatically opens each agent in a dedicated Tmux, Zellij, Herdr, cmux, or kitty pane, so you can watch specialists work live while the Orchestrator continues coordinating the session.
+
+The default generated configuration includes both `openai` and `opencode-go` presets.
+
+{
+  "$schema": "https://unpkg.com/oh-my-opencode-slim@latest/oh-my-opencode-slim.schema.json",
+  "preset": "openai",
+  "presets": {
+    "openai": {
+      "orchestrator": { "model": "openai/gpt-5.6-terra", "variant": "high", "skills": \["\*"\], "mcps": \["\*", "!context7"\] },
+      "oracle": { "model": "openai/gpt-5.6-sol", "variant": "high", "skills": \["simplify"\], "mcps": \[\] },
+      "librarian": { "model": "openai/gpt-5.6-luna", "variant": "low", "skills": \[\], "mcps": \["context7", "gh\_grep"\] },
+      "explorer": { "model": "openai/gpt-5.6-luna", "variant": "low", "skills": \[\], "mcps": \[\] },
+      "designer": { "model": "openai/gpt-5.6-luna", "variant": "medium", "skills": \[\], "mcps": \[\] },
+      "fixer": { "model": "openai/gpt-5.6-luna", "variant": "high", "skills": \[\], "mcps": \[\] }
+    }
+  }
+}
+
+### Preset Docs
+
+[](#preset-docs)
+
+Consider presets as guidelines as they are often outdated.
+
+-   **[OpenAI Preset](/alvinunreal/oh-my-opencode-slim/blob/master/docs/openai-preset.md)** — the default generated preset; runs all agents on OpenAI models.
+-   **[OpenCode Go Preset](/alvinunreal/oh-my-opencode-slim/blob/master/docs/opencode-go-preset.md)** — runs the agents on OpenCode Go models; enables the Observer agent for visual analysis since its orchestrator model isn't multimodal.
+-   **[Author's Preset](/alvinunreal/oh-my-opencode-slim/blob/master/docs/authors-preset.md)** — the exact config the author runs day to day, with third-party skills.
+-   **[$30 Preset](/alvinunreal/oh-my-opencode-slim/blob/master/docs/thirty-dollars-preset.md)** — a mixed-provider setup built around Codex Plus and GitHub Copilot Pro for about $30/month.
+-   **[OpenCode Zen Free Preset](/alvinunreal/oh-my-opencode-slim/blob/master/docs/opencode-zen-free-preset.md)** — every agent runs on an opencode free model; no usage cost.
+
+### For Alternative Providers
+
+[](#for-alternative-providers)
+
+To use custom providers or a mixed-provider setup, use **[Configuration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/configuration.md)** for the full reference.
+
+### ✅ Verify Your Setup
+
+[](#-verify-your-setup)
+
+After installation and authentication, verify all agents are configured and responding:
+
+opencode
+
+Then run:
+
+```
+ping all agents
+```
+
+[![Ping all agents](/alvinunreal/oh-my-opencode-slim/raw/master/img/ping.png)](/alvinunreal/oh-my-opencode-slim/blob/master/img/ping.png)
+
+*Confirmation that all configured agents are online and ready.*
+
+If any agent fails to respond, check your provider authentication and config file.
+
+---
+
+## 🏛️ Meet the Pantheon
+
+[](#️-meet-the-pantheon)
+
+### 01\. Orchestrator: The Embodiment Of Order
+
+[](#01-orchestrator-the-embodiment-of-order)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/orchestrator.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/orchestrator.jpg)  
+*Forged in the void of complexity.*
+
+The Orchestrator was born when the first codebase collapsed under its own complexity. Neither god nor mortal would claim responsibility - so The Orchestrator emerged from the void, forging order from chaos. It determines the optimal path to any goal, balancing speed, quality, and cost. It guides the team, summoning the right specialist for each task and delegating to achieve the best possible outcome.
+
+**Role:** `Master delegator and strategic coordinator`
+
+**Prompt:** [`orchestrator.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/orchestrator.ts)
+
+**Default Model:** `openai/gpt-5.6-terra (medium)`
+
+**Recommended Models:** `claude-fable-5` `claude-opus-4-8` `glm-5.2` `gpt-5.6-terra` `mimo-v2.5` `minimax-m3` `qwen3.7-plus`
+
+**Model Guidance:** Choose your strongest planning and judgment model. Orchestrator is the workflow manager: it plans, schedules background specialists, reconciles results, and verifies outcomes, so it needs reliable instruction-following and high-level technical judgment more than raw worker throughput.
+
+---
+
+### 02\. Explorer: The Eternal Wanderer
+
+[](#02-explorer-the-eternal-wanderer)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/explorer.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/explorer.jpg)  
+*The wind that carries knowledge.*
+
+The Explorer is an immortal wanderer who has traversed the corridors of a million codebases since the dawn of programming. Cursed with the gift of eternal curiosity, they cannot rest until every file is known, every pattern understood, every secret revealed. Legends say they once searched the entire internet in a single heartbeat. They are the wind that carries knowledge, the eyes that see all, the spirit that never sleeps.
+
+**Role:** `Codebase reconnaissance`
+
+**Prompt:** [`explorer.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/explorer.ts)
+
+**Default Model:** `openai/gpt-5.6-luna`
+
+**Recommended Models:** `deepseek-v4-flash` `gpt-5.3-codex`
+
+**Model Guidance:** Choose a fast, low-cost model. Explorer handles broad scouting work, so speed and efficiency usually matter more than using your strongest reasoning model.
+
+---
+
+### 03\. Oracle: The Guardian of Paths
+
+[](#03-oracle-the-guardian-of-paths)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/oracle.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/oracle.jpg)  
+*The voice at the crossroads.*
+
+The Oracle stands at the crossroads of every architectural decision. They have walked every road, seen every destination, know every trap that lies ahead. When you stand at the precipice of a major refactor, they are the voice that whispers which way leads to ruin and which way leads to glory. They don't choose for you - they illuminate the path so you can choose wisely.
+
+**Role:** `Strategic advisor and debugger of last resort`
+
+**Prompt:** [`oracle.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/oracle.ts)
+
+**Default Model:** `openai/gpt-5.6-sol (high)`
+
+**Recommended Models:** `claude-fable-5` `claude-opus-4-8` `deepseek-v4-pro` `glm-5.2` `gpt-5.6-sol` `qwen3.7-max`
+
+**Model Guidance:** Choose your strongest high-reasoning model for architecture, hard debugging, trade-offs, and code review.
+
+---
+
+### 04\. Council: The Chorus of Minds
+
+[](#04-council-the-chorus-of-minds)
+
+Note
+
+**Why doesn't Orchestrator auto-call Council more often?** This is intentional. Council runs multiple models at once, so automatic delegation is kept strict because it is usually the highest-cost path in the system. In practice, Council is meant to be used manually when you want it, for example: `@council compare these two architectures`.
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/council.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/council.jpg)  
+*Many minds, one verdict.*
+
+The Council is not a lone being but a chamber of minds summoned when one answer is not enough. It sends your question to multiple models in parallel, gathers their competing judgments, and then the Council agent itself distills the strongest ideas into a single verdict. Where a solitary agent may miss a path, the Council cross-examines possibility itself.
+
+**Role:** `Multi-LLM consensus and synthesis`
+
+**Prompt:** [`council.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/council.ts)
+
+**Guide:** [`docs/council.md`](/alvinunreal/oh-my-opencode-slim/blob/master/docs/council.md)
+
+**Default Setup:** `Config-driven` - councillors come from `council.presets` and the Council agent model comes from your normal `council` agent config
+
+**Recommended Setup:** `Strong Council model` + `diverse councillors` across providers
+
+**Model Guidance:** Use a strong synthesis model for the Council agent and diverse models as councillors. The value of Council comes from comparing different model perspectives, not just picking the single strongest model everywhere.
+
+---
+
+### 05\. Librarian: The Weaver of Knowledge
+
+[](#05-librarian-the-weaver-of-knowledge)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/librarian.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/librarian.jpg)  
+*The weaver of understanding.*
+
+The Librarian was forged when humanity realized that no single mind could hold all knowledge. They are the weaver who connects disparate threads of information into a tapestry of understanding. They traverse the infinite library of human knowledge, gathering insights from every corner and binding them into answers that transcend mere facts. What they return is not information - it's understanding.
+
+**Role:** `External knowledge retrieval`
+
+**Prompt:** [`librarian.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/librarian.ts)
+
+**Default Model:** `openai/gpt-5.6-luna`
+
+**Recommended Models:** `deepseek-v4-flash` `gpt-5.3-codex` `mimo-v2.5` `minimax-m2.7`
+
+**Model Guidance:** Choose a fast, low-cost model. Librarian handles research and documentation lookups, so speed and efficiency usually matter more than using your strongest reasoning model.
+
+---
+
+### 06\. Designer: The Guardian of Aesthetics
+
+[](#06-designer-the-guardian-of-aesthetics)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/designer.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/designer.jpg)  
+*Beauty is essential.*
+
+The Designer is an immortal guardian of beauty in a world that often forgets it matters. They have seen a million interfaces rise and fall, and they remember which ones were remembered and which were forgotten. They carry the sacred duty to ensure that every pixel serves a purpose, every animation tells a story, every interaction delights. Beauty is not optional - it's essential.
+
+**Role:** `UI/UX implementation and visual excellence`
+
+**Prompt:** [`designer.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/designer.ts)
+
+**Default Model:** `openai/gpt-5.6-luna`
+
+**Recommended Models:** `gemini-3.5-flash` `kimi-k2.7-code` `minimax-m3`
+
+**Model Guidance:** Choose a model that is strong at UI/UX judgment, frontend implementation, and visual polish.
+
+---
+
+### 07\. Fixer: The Last Builder
+
+[](#07-fixer-the-last-builder)
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/fixer.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/fixer.jpg)  
+*The final step between vision and reality.*
+
+The Fixer is the last of a lineage of builders who once constructed the foundations of the digital world. When the age of planning and debating began, they remained - the ones who actually build. They carry the ancient knowledge of how to turn thought into thing, how to transform specification into implementation. They are the final step between vision and reality.
+
+**Role:** `Fast implementation specialist`
+
+**Prompt:** [`fixer.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/fixer.ts)
+
+**Default Model:** `openai/gpt-5.6-luna`
+
+**Recommended Models:** `claude-sonnet-4-6` `deepseek-v4-flash` `gpt-5.6-luna` `kimi-k2.7-code`
+
+**Model Guidance:** Choose a reliable coding model for scoped implementation work. Fixer receives a concrete plan or bounded instructions from Orchestrator, making it a good place for efficient execution tasks and straightforward code changes.
+
+---
+
+## Optional Agents
+
+[](#optional-agents)
+
+### Observer: The Silent Witness
+
+[](#observer-the-silent-witness)
+
+Note
+
+**Why a separate agent?** If your Orchestrator model is not multimodal, enable Observer to handle images, screenshots, and other visual files. Observer is disabled by default and gives the Orchestrator a dedicated multimodal reader without forcing you to change your main reasoning model. Set `disabled_agents: []` and an `observer` model in your configuration. The bundled `opencode-go` install preset does this automatically because its GLM Orchestrator is not multimodal. Omitting `image_routing` preserves existing conditional Observer behavior. Set `image_routing: "auto"` only when Observer is enabled, or `"direct"` to always pass image attachments to the Orchestrator.
+
+[![](/alvinunreal/oh-my-opencode-slim/raw/master/img/observer.jpg)](/alvinunreal/oh-my-opencode-slim/blob/master/img/observer.jpg)  
+*The eye that reads what others cannot.*
+
+**Read-only visual analysis** - interprets images, screenshots, PDFs, and diagrams. Returns structured observations to the orchestrator without loading raw file bytes into the main context window.
+
+-   Images, screenshots, diagrams → `read` tool (native image support)
+    
+-   PDFs and binary documents → `read` tool (text + structure extraction)
+    
+-   **Disabled by default** - enable with `"disabled_agents": []` and configure a vision-capable model; installing with `--preset=opencode-go` enables it with `opencode-go/mimo-v2.5`. Image attachments route to Observer by default when it is enabled; set `"image_routing": "direct"` to keep them on the Orchestrator.
+    
+
+**Prompt:** [`observer.ts`](/alvinunreal/oh-my-opencode-slim/blob/master/src/agents/observer.ts)
+
+**Default Model:** `openai/gpt-5.6-luna` - *configure a vision-capable model to enable*
+
+**Recommended Models:** `mimo-v2.5` `qwen3.5-plus`
+
+**Model Guidance:** Choose a vision-capable model if you want the agent to read screenshots, images, PDFs, and other visual files.
+
+---
+
+## 🧩 Skills
+
+[](#-skills)
+
+Skills are prompt-based instructions injected into an agent's system prompt to guide decisions, workflows, and tool use. Unlike MCPs (which are running servers), a skill runs no process — it is a focused playbook an agent activates when the task calls for it. The installer bundles eight skills and keeps them updated on plugin auto-update; local customizations are preserved.
+
+Tip
+
+To discard local bundled-skill customizations and receive package updates, run `bunx oh-my-opencode-slim install --skills=force`. This deliberately replaces installed bundled skills with the package versions.
+
+Skill
+
+Purpose
+
+Default agent
+
+How to invoke
+
+[![Codemap artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/codemap.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/codemap.webp)  
+[`codemap`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/codemap/SKILL.md)
+
+Hierarchical repository maps so agents understand codebases without re-reading everything
+
+`orchestrator`
+
+`run codemap`
+
+[![Deepwork artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/deepwork.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/deepwork.webp)  
+[`deepwork`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/deepwork/SKILL.md)
+
+Structured workflow for large, risky, multi-phase coding sessions with review gates
+
+`orchestrator`
+
+`/deepwork <task>`
+
+[![Verification Planning artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/verification-planning.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/verification-planning.webp)  
+[`verification-planning`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/verification-planning/SKILL.md)
+
+Plans a project-specific evidence path before non-trivial changes
+
+`orchestrator`
+
+automatic before non-trivial work
+
+[![Simplify artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/simplify.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/simplify.webp)  
+[`simplify`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/simplify/SKILL.md)
+
+Behavior-preserving simplification for readability and maintainability
+
+`oracle`
+
+ask for simplification or during review
+
+[![Worktrees artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/worktrees.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/worktrees.webp)  
+[`worktrees`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/worktrees/SKILL.md)
+
+Git worktrees as safe, isolated coding lanes for risky or parallel work
+
+`orchestrator`
+
+`work in a worktree`
+
+[![Clonedeps artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/clonedeps.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/clonedeps.webp)  
+[`clonedeps`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/clonedeps/SKILL.md)
+
+Clones dependency source locally so agents can inspect library internals
+
+`orchestrator`
+
+`clone dependencies`
+
+[![Reflect artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/reflect.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/reflect.webp)  
+[`reflect`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/reflect/SKILL.md)
+
+Turns repeated workflow friction into reusable skills, agents, or config
+
+`orchestrator`
+
+`/reflect`
+
+[![oh-my-opencode-slim artifact](/alvinunreal/oh-my-opencode-slim/raw/master/img/skills/oh-my-opencode-slim.webp)](/alvinunreal/oh-my-opencode-slim/blob/master/img/skills/oh-my-opencode-slim.webp)  
+[`oh-my-opencode-slim`](/alvinunreal/oh-my-opencode-slim/blob/master/src/skills/oh-my-opencode-slim/SKILL.md)
+
+Configures and safely improves the plugin setup itself
+
+`orchestrator`
+
+ask to tune your setup
+
+Skill assignments are permission grants — an agent can only activate skills it has been given. Configure them per agent with the `skills` array in `~/.config/opencode/oh-my-opencode-slim.json`: an explicit list, `"*"` for everything, or `"!skill-name"` to deny one.
+
+See **[Skills](/alvinunreal/oh-my-opencode-slim/blob/master/docs/skills.md)** for full documentation, or browse the illustrated overview at **[ohmyopencodeslim.com/skills](https://ohmyopencodeslim.com/skills)**.
+
+---
+
+## 🖥️ Companion
+
+[](#️-companion)
+
+The optional Companion is a floating desktop status window for live agent activity. It shows the current session state and which agents are active, so background work is easier to follow at a glance.
+
+[![Companion showing active agents](/alvinunreal/oh-my-opencode-slim/raw/master/img/companion.gif)](/alvinunreal/oh-my-opencode-slim/blob/master/img/companion.gif)
+
+*Left bottom visual companion.*
+
+During interactive install, the installer asks whether to enable Companion and defaults to `no`. For automation, enable it explicitly with:
+
+bunx oh-my-opencode-slim@latest install --companion=yes
+
+See **[Companion](/alvinunreal/oh-my-opencode-slim/blob/master/docs/companion.md)** for configuration, positions, sizes, and install details.
+
+---
+
+## 📚 Documentation
+
+[](#-documentation)
+
+Use this section as a map: start with installation, then jump to features, configuration, or example presets depending on what you need.
+
+### ✨ Features & Workflows
+
+[](#-features--workflows)
+
+Doc
+
+What it covers
+
+**[Council](/alvinunreal/oh-my-opencode-slim/blob/master/docs/council.md)**
+
+Run multiple models in parallel and synthesize a single answer with `@council`
+
+**[Custom Agents](/alvinunreal/oh-my-opencode-slim/blob/master/docs/configuration.md#custom-agents)**
+
+Define your own specialists with custom prompts, models, MCP access, and Orchestrator delegation rules
+
+**[ACP Agents](/alvinunreal/oh-my-opencode-slim/blob/master/docs/acp-agents.md)**
+
+Connect external ACP-compatible agents such as Claude Code ACP or Gemini ACP as delegatable subagents
+
+**[Multiplexer Integration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/multiplexer-integration.md)**
+
+Watch agents work live in Tmux, Zellij, Herdr, cmux, or kitty panes
+
+**[Codemap](/alvinunreal/oh-my-opencode-slim/blob/master/docs/codemap.md)**
+
+Generate hierarchical codemaps to understand large codebases faster
+
+**[Clonedeps](/alvinunreal/oh-my-opencode-slim/blob/master/docs/clonedeps.md)**
+
+Clone selected dependency source into an ignored local workspace for inspection
+
+**[Worktrees](/alvinunreal/oh-my-opencode-slim/blob/master/docs/worktrees.md)**
+
+Use `.slim/worktrees/` lanes for isolated parallel or risky coding work
+
+**[Preset Switching](/alvinunreal/oh-my-opencode-slim/blob/master/docs/preset-switching.md)**
+
+Switch agent model presets at runtime with `/preset`
+
+**[Interview](/alvinunreal/oh-my-opencode-slim/blob/master/docs/interview.md)**
+
+Turn rough ideas into a structured markdown spec through a browser-based Q&A flow
+
+**[Companion](/alvinunreal/oh-my-opencode-slim/blob/master/docs/companion.md)**
+
+Floating window companion for parsing, help, and types
+
+### ⚙️ Config & Reference
+
+[](#️-config--reference)
+
+Doc
+
+What it covers
+
+**[Installation Guide](/alvinunreal/oh-my-opencode-slim/blob/master/docs/installation.md)**
+
+Install the plugin, use CLI flags, reset config, and troubleshoot setup
+
+**[OpenCode v2 Compatibility](/alvinunreal/oh-my-opencode-slim/blob/master/docs/opencode-v2-compatibility.md)**
+
+Run the same plugin on `opencode2`: feature matrix, v2.0.x compatibility baseline, version pinning
+
+**[Configuration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/configuration.md)**
+
+Config file locations, JSONC support, prompt overrides, and full option reference
+
+**[Project Customization](/alvinunreal/oh-my-opencode-slim/blob/master/docs/project-local-customization.md)**
+
+Repository-specific custom agents, prompt overrides, per-agent skills, and precedence
+
+**[Background Orchestration](/alvinunreal/oh-my-opencode-slim/blob/master/docs/background-orchestration.md)**
+
+Scheduler-first orchestrator model built around native background subagents
+
+**[Maintainer Guide](/alvinunreal/oh-my-opencode-slim/blob/master/docs/maintainers.md)**
+
+Issue triage rules, label meanings, support routing, and repo maintenance workflow
+
+**[Skills](/alvinunreal/oh-my-opencode-slim/blob/master/docs/skills.md)**
+
+Bundled skills such as `simplify`, `codemap`, `clonedeps`, `deepwork`, `verification-planning`, `reflect`, `worktrees`, and `oh-my-opencode-slim`
+
+**[MCPs](/alvinunreal/oh-my-opencode-slim/blob/master/docs/mcps.md)**
+
+`context7`, `gh_grep`, and how MCP permissions work per agent
+
+**[Tools](/alvinunreal/oh-my-opencode-slim/blob/master/docs/tools.md)**
+
+Built-in tool capabilities like `webfetch`, LSP tools, code search, and formatters
+
+---
+
+## 🏛️ Contributors
+
+[](#️-contributors)
+
+*The builders, debuggers, writers, and wanderers who have earned their place in the pantheon.*
+
+Every merged contribution leaves a mark on the realm.
+
+[![All Contributors](https://camo.githubusercontent.com/f76bd24aeade9ec15277ca5dc300d00834be7c79da399353d42a938d64f97ca6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616c6c5f636f6e7472696275746f72732d3131352d6f72616e67652e7376673f7374796c653d666c61742d737175617265)](#contributors-)
+
+  
+
+[![Alvin](https://avatars.githubusercontent.com/u/204474669?v=4?s=100)  
+**Alvin**](https://boringdystopia.ai/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=alvinunreal "Code")
+
+[![alvinreal](https://avatars.githubusercontent.com/u/262747402?v=4?s=100)  
+**alvinreal**](https://github.com/alvinreal)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=alvinreal "Code")
+
+[![imw](https://avatars.githubusercontent.com/u/60992624?v=4?s=100)  
+**imw**](https://github.com/imarshallwidjaja)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=imarshallwidjaja "Code")
+
+[![Adithya Kozham Burath Bijoy](https://avatars.githubusercontent.com/u/67222969?v=4?s=100)  
+**Adithya Kozham Burath Bijoy**](https://github.com/adikpb)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=adikpb "Code")
+
+[![ReqX](https://avatars.githubusercontent.com/u/14987124?v=4?s=100)  
+**ReqX**](https://github.com/ReqX)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=ReqX "Code")
+
+[![Abhideep Maity](https://avatars.githubusercontent.com/u/28213051?v=4?s=100)  
+**Abhideep Maity**](https://github.com/abhideepm)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=abhideepm "Code")
+
+[![Ruben](https://avatars.githubusercontent.com/u/17501732?v=4?s=100)  
+**Ruben**](https://github.com/Daltonganger)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Daltonganger "Code")
+
+[![Gabriel Rodrigues](https://avatars.githubusercontent.com/u/148660626?v=4?s=100)  
+**Gabriel Rodrigues**](https://horizzon3507.vercel.app/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=horizzon3507 "Code")
+
+[![John Michael Vincent Bambico](https://avatars.githubusercontent.com/u/45126068?v=4?s=100)  
+**John Michael Vincent Bambico**](https://github.com/jmvbambico)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=jmvbambico "Code")
+
+[![Molt Founders](https://avatars.githubusercontent.com/u/261528848?v=4?s=100)  
+**Molt Founders**](https://github.com/mfold111)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=mfold111 "Code")
+
+[![Muen Yu](https://avatars.githubusercontent.com/u/22992947?v=4?s=100)  
+**Muen Yu**](https://me.mashiro.best/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=MuenYu "Code")
+
+[![NocturnesLK](https://avatars.githubusercontent.com/u/102891073?v=4?s=100)  
+**NocturnesLK**](https://github.com/NocturnesLK)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=NocturnesLK "Code")
+
+[![Riccardo Sallusti](https://avatars.githubusercontent.com/u/466102?v=4?s=100)  
+**Riccardo Sallusti**](http://riccardosallusti.it/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=rizal72 "Code")
+
+[![Yan Li](https://avatars.githubusercontent.com/u/3993179?v=4?s=100)  
+**Yan Li**](https://github.com/Yusyuriv)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Yusyuriv "Code")
+
+[![Hoàng Văn Anh Nghĩa](https://avatars.githubusercontent.com/u/59473462?v=4?s=100)  
+**Hoàng Văn Anh Nghĩa**](https://github.com/nghyane)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=nghyane "Code")
+
+[![Jacob Myers](https://avatars.githubusercontent.com/u/76993396?v=4?s=100)  
+**Jacob Myers**](https://github.com/Jyers)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Jyers "Code")
+
+[![Kassie Povinelli](https://avatars.githubusercontent.com/u/59930829?v=4?s=100)  
+**Kassie Povinelli**](https://github.com/kassieclaire)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=kassieclaire "Code")
+
+[![KyleHilliard](https://avatars.githubusercontent.com/u/178682772?v=4?s=100)  
+**KyleHilliard**](https://github.com/KyleHilliard)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=KyleHilliard "Code")
+
+[![j5hjun](https://avatars.githubusercontent.com/u/169322508?v=4?s=100)  
+**j5hjun**](https://github.com/j5hjun)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=j5hjun "Code")
+
+[![marcFernandez](https://avatars.githubusercontent.com/u/32362792?v=4?s=100)  
+**marcFernandez**](https://github.com/marcFernandez)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=marcFernandez "Code")
+
+[![mister-test](https://avatars.githubusercontent.com/u/212316706?v=4?s=100)  
+**mister-test**](https://github.com/mister-test)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=mister-test "Code")
+
+[![n24q02m](https://avatars.githubusercontent.com/u/135627235?v=4?s=100)  
+**n24q02m**](https://github.com/n24q02m)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=n24q02m "Code")
+
+[![oribi](https://avatars.githubusercontent.com/u/8760762?v=4?s=100)  
+**oribi**](https://github.com/oribarilan)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=oribarilan "Code")
+
+[![pelidan](https://avatars.githubusercontent.com/u/45832535?v=4?s=100)  
+**pelidan**](https://github.com/pelidan)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=pelidan "Code")
+
+[![xLillium](https://avatars.githubusercontent.com/u/16964936?v=4?s=100)  
+**xLillium**](https://github.com/xLillium)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=xLillium "Code")
+
+[![⁢4.435km/s](https://avatars.githubusercontent.com/u/54017765?v=4?s=100)  
+**⁢4.435km/s**](https://github.com/CoolZxp)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=CoolZxp "Code")
+
+[![Drin](https://avatars.githubusercontent.com/u/34709601?v=4?s=100)  
+**Drin**](https://github.com/drindr)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=drindr "Code")
+
+[![Hakim Zulkufli](https://avatars.githubusercontent.com/u/42469039?v=4?s=100)  
+**Hakim Zulkufli**](https://hzu.lol/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=hakimzulkufli "Code")
+
+[![Simon Klakegg](https://avatars.githubusercontent.com/u/14874913?v=4?s=100)  
+**Simon Klakegg**](https://bit.ly/2N1ynXZ)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=sklakegg "Code")
+
+[![Kiwi](https://avatars.githubusercontent.com/u/214225921?v=4?s=100)  
+**Kiwi**](https://github.com/sudorest)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=sudorest "Code")
+
+[![Raxxoor](https://avatars.githubusercontent.com/u/7317522?v=4?s=100)  
+**Raxxoor**](https://trade.xyz/?ref=BZ1RJRXWO)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=dhaern "Code")
+
+[![nyanyani](https://avatars.githubusercontent.com/u/11475482?v=4?s=100)  
+**nyanyani**](https://github.com/nyanyani)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=nyanyani "Code")
+
+[![nettee](https://avatars.githubusercontent.com/u/3953668?v=4?s=100)  
+**nettee**](https://nettee.io/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=nettee "Code")
+
+[![Link](https://avatars.githubusercontent.com/u/48194045?v=4?s=100)  
+**Link**](https://github.com/atomlink-ye)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=atomlink-ye "Code")
+
+[![Bartosz Łaszewski](https://avatars.githubusercontent.com/u/14119531?v=4?s=100)  
+**Bartosz Łaszewski**](https://github.com/blaszewski)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=blaszewski "Code")
+
+[![huilang021x](https://avatars.githubusercontent.com/u/77293911?v=4?s=100)  
+**huilang021x**](https://github.com/huilang021x)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=huilang021x "Code")
+
+[![Dusan Kovacevic](https://avatars.githubusercontent.com/u/24757821?v=4?s=100)  
+**Dusan Kovacevic**](https://github.com/dkovacevic15)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=dkovacevic15 "Code")
+
+[![jwcrystal](https://avatars.githubusercontent.com/u/121911854?v=4?s=100)  
+**jwcrystal**](https://github.com/jwcrystal)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=jwcrystal "Code")
+
+[![Nguyen Canh Toan](https://avatars.githubusercontent.com/u/10528635?v=4?s=100)  
+**Nguyen Canh Toan**](https://zenstudio.cv/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=ZenStudioLab "Code")
+
+[![Thomas Dyar](https://avatars.githubusercontent.com/u/8899513?v=4?s=100)  
+**Thomas Dyar**](https://github.com/tom-dyar)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=tom-dyar "Code")
+
+[![zero](https://avatars.githubusercontent.com/u/6713415?v=4?s=100)  
+**zero**](https://github.com/zuuky)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=zuuky "Code")
+
+[![Denis Balan](https://avatars.githubusercontent.com/u/33955091?v=4?s=100)  
+**Denis Balan**](https://github.com/DenisBalan)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=DenisBalan "Code")
+
+[![Gustavo Caiano](https://avatars.githubusercontent.com/u/104129313?v=4?s=100)  
+**Gustavo Caiano**](https://github.com/gustavocaiano)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=gustavocaiano "Code")
+
+[![Thomas Mulder](https://avatars.githubusercontent.com/u/6631765?v=4?s=100)  
+**Thomas Mulder**](https://github.com/ThomasMldr)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=ThomasMldr "Code")
+
+[![魔王少年(maou shonen)](https://avatars.githubusercontent.com/u/22576780?v=4?s=100)  
+**魔王少年(maou shonen)**](https://github.com/maou-shonen)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=maou-shonen "Code")
+
+[![  Jelasin](https://avatars.githubusercontent.com/u/97788570?v=4?s=100)  
+**Jelasin**](https://github.com/jelasin)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=jelasin "Code")
+
+[![Hannes](https://avatars.githubusercontent.com/u/40021505?v=4?s=100)  
+**Hannes**](https://github.com/hannespr)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=hannespr "Code")
+
+[![mooozfxs](https://avatars.githubusercontent.com/u/36733893?v=4?s=100)  
+**mooozfxs**](https://qwtoe.github.io/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=qwtoe "Code")
+
+[![Luke Hines](https://avatars.githubusercontent.com/u/2040617?v=4?s=100)  
+**Luke Hines**](https://github.com/zackslash)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=zackslash "Code")
+
+[![m.seomoon](https://avatars.githubusercontent.com/u/103019336?v=4?s=100)  
+**m.seomoon**](https://github.com/andrewylies)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=andrewylies "Code")
+
+[![Yolo](https://avatars.githubusercontent.com/u/10754850?v=4?s=100)  
+**Yolo**](https://github.com/yolo2h)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=yolo2h "Code")
+
+[![XinXing](https://avatars.githubusercontent.com/u/49302071?v=4?s=100)  
+**XinXing**](https://github.com/xinxingi)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=xinxingi "Code")
+
+[![Ikko Eltociear Ashimine](https://avatars.githubusercontent.com/u/22633385?v=4?s=100)  
+**Ikko Eltociear Ashimine**](https://github.com/eltociear)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=eltociear "Code")
+
+[![GWANWOO KIM](https://avatars.githubusercontent.com/u/69743540?v=4?s=100)  
+**GWANWOO KIM**](https://github.com/dev-wantap)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=dev-wantap "Code")
+
+[![Omer Faruk Oruc](https://avatars.githubusercontent.com/u/7347742?v=4?s=100)  
+**Omer Faruk Oruc**](https://github.com/OmerFarukOruc)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=OmerFarukOruc "Code")
+
+[![Omar Mohamed Khallaf](https://avatars.githubusercontent.com/u/51155980?v=4?s=100)  
+**Omar Mohamed Khallaf**](https://khallaf.uk/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=omar-mohamed-khallaf "Code")
+
+[![Knowingthesea_Qesire](https://avatars.githubusercontent.com/u/102657430?v=4?s=100)  
+**Knowingthesea\_Qesire**](https://github.com/Qesire)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Qesire "Code")
+
+[![FENG Hao](https://avatars.githubusercontent.com/u/157430?v=4?s=100)  
+**FENG Hao**](http://www.flyinghail.net/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=flyinghail "Code")
+
+[![Matheus Nogueira Silveira](https://avatars.githubusercontent.com/u/5666794?v=4?s=100)  
+**Matheus Nogueira Silveira**](https://github.com/smatheusblu)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=smatheusblu "Code")
+
+[![sktr](https://avatars.githubusercontent.com/u/44969514?v=4?s=100)  
+**sktr**](https://github.com/sktr)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=sktr "Code")
+
+[![Insomnia](https://avatars.githubusercontent.com/u/62272380?v=4?s=100)  
+**Insomnia**](https://github.com/bobbyunknown)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=bobbyunknown "Code")
+
+[![Andres Castañeda](https://avatars.githubusercontent.com/u/13487870?v=4?s=100)  
+**Andres Castañeda**](https://github.com/andrescastane)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=andrescastane "Code")
+
+[![Zaradacht Taifour (Zack)](https://avatars.githubusercontent.com/u/24251016?v=4?s=100)  
+**Zaradacht Taifour (Zack)**](https://zaradacht.com/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Zaradacht "Code")
+
+[![fslse](https://avatars.githubusercontent.com/u/90545544?v=4?s=100)  
+**fslse**](https://github.com/fslse)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=fslse "Code")
+
+[![萧瑟](https://avatars.githubusercontent.com/u/178997622?v=4?s=100)  
+**萧瑟**](https://github.com/linze0721)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=linze0721 "Code")
+
+[![Zhi](https://avatars.githubusercontent.com/u/146103794?v=4?s=100)  
+**Zhi**](https://github.com/SisyphusZheng)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=SisyphusZheng "Code")
+
+[![lilili](https://avatars.githubusercontent.com/u/19755784?v=4?s=100)  
+**lilili**](https://github.com/824156793)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=824156793 "Code")
+
+[![Mike Henke](https://avatars.githubusercontent.com/u/119844?v=4?s=100)  
+**Mike Henke**](http://mikehenke.com/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=mhenke "Code")
+
+[![Vinay Pandya](https://avatars.githubusercontent.com/u/5011197?v=4?s=100)  
+**Vinay Pandya**](https://github.com/imVinayPandya)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=imVinayPandya "Code")
+
+[![Shank](https://avatars.githubusercontent.com/u/241541918?v=4?s=100)  
+**Shank**](https://github.com/s-shank)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=s-shank "Code")
+
+[![Robin Gutzen](https://avatars.githubusercontent.com/u/16289604?v=4?s=100)  
+**Robin Gutzen**](https://rgutzen.github.io/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=rgutzen "Code")
+
+[![Yash](https://avatars.githubusercontent.com/u/197374270?v=4?s=100)  
+**Yash**](https://github.com/dragon-Elec)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=dragon-Elec "Code")
+
+[![Liu Jiajun](https://avatars.githubusercontent.com/u/184531967?v=4?s=100)  
+**Liu Jiajun**](https://github.com/Jiajun0413)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Jiajun0413 "Code")
+
+[![Ulises Millán](https://avatars.githubusercontent.com/u/200843810?v=4?s=100)  
+**Ulises Millán**](https://github.com/umi008)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=umi008 "Code")
+
+[![HighColdHC](https://avatars.githubusercontent.com/u/35870222?v=4?s=100)  
+**HighColdHC**](https://github.com/HighColdHC)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=HighColdHC "Code")
+
+[![Stephan Schielke](https://avatars.githubusercontent.com/u/401815?v=4?s=100)  
+**Stephan Schielke**](https://hardcore.engineer/about)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=stephanschielke "Code")
+
+[![Daniel Maly](https://avatars.githubusercontent.com/u/69809112?v=4?s=100)  
+**Daniel Maly**](https://github.com/DanMaly)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=DanMaly "Code")
+
+[![Chewji](https://avatars.githubusercontent.com/u/126886556?v=4?s=100)  
+**Chewji**](https://github.com/Chewji9875)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Chewji9875 "Code")
+
+[![Daniel Maly](https://avatars.githubusercontent.com/u/1443921?v=4?s=100)  
+**Daniel Maly**](https://github.com/DanielMaly)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=DanielMaly "Code")
+
+[![Giuseppe Bellamacina](https://avatars.githubusercontent.com/u/102151655?v=4?s=100)  
+**Giuseppe Bellamacina**](https://giuseppebellamacina.com/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=GiuseppeBellamacina "Code")
+
+[![Zhanyuanium](https://avatars.githubusercontent.com/u/92024923?v=4?s=100)  
+**Zhanyuanium**](https://github.com/Zhanyuanium)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Zhanyuanium "Code")
+
+[![かぜ](https://avatars.githubusercontent.com/u/114116466?v=4?s=100)  
+**かぜ**](https://github.com/kaze-gif)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=kaze-gif "Code")
+
+[![Tsanko Tsanev](https://avatars.githubusercontent.com/u/76694544?v=4?s=100)  
+**Tsanko Tsanev**](https://github.com/tsankotsanev)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=tsankotsanev "Code")
+
+[![cyril](https://avatars.githubusercontent.com/u/40780706?v=4?s=100)  
+**cyril**](https://github.com/shixi-li)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=shixi-li "Code")
+
+[![Patricio Molina](https://avatars.githubusercontent.com/u/1817596?v=4?s=100)  
+**Patricio Molina**](https://github.com/pmolinal)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=pmolinal "Code")
+
+[![vinilouz](https://avatars.githubusercontent.com/u/20116132?v=4?s=100)  
+**vinilouz**](https://github.com/vinilouz)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=vinilouz "Code")
+
+[![Homura](https://avatars.githubusercontent.com/u/190353468?v=4?s=100)  
+**Homura**](https://github.com/MyGO-Mujica)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=MyGO-Mujica "Code")
+
+[![Major Hayden](https://avatars.githubusercontent.com/u/89910?v=4?s=100)  
+**Major Hayden**](https://major.io/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=major "Code")
+
+[![Davide Ladisa](https://avatars.githubusercontent.com/u/32127923?v=4?s=100)  
+**Davide Ladisa**](https://github.com/FrancoStino)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=FrancoStino "Code")
+
+[![Max-Null](https://avatars.githubusercontent.com/u/24647158?v=4?s=100)  
+**Max-Null**](https://github.com/Max-Null)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Max-Null "Code")
+
+[![Bruce](https://avatars.githubusercontent.com/u/5895525?v=4?s=100)  
+**Bruce**](https://github.com/brucemead)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=brucemead "Code")
+
+[![zhaohaofan](https://avatars.githubusercontent.com/u/271720354?v=4?s=100)  
+**zhaohaofan**](https://github.com/lih54767-coder)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=lih54767-coder "Code")
+
+[![adevwithpurpose](https://avatars.githubusercontent.com/u/197252873?v=4?s=100)  
+**adevwithpurpose**](https://github.com/adevwithpurpose)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=adevwithpurpose "Code")
+
+[![Gold John King](https://avatars.githubusercontent.com/u/26923626?v=4?s=100)  
+**Gold John King**](https://space.bilibili.com/67279156)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=GoldJohnKing "Code")
+
+[![pxmps](https://avatars.githubusercontent.com/u/180872771?v=4?s=100)  
+**pxmps**](https://github.com/pxmpsdev)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=pxmpsdev "Code")
+
+[![raphaelwdrf](https://avatars.githubusercontent.com/u/61286068?v=4?s=100)  
+**raphaelwdrf**](https://github.com/raphaelwdrf)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=raphaelwdrf "Code")
+
+[![Brant](https://avatars.githubusercontent.com/u/118449321?v=4?s=100)  
+**Brant**](https://github.com/KomeijiReimu)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=KomeijiReimu "Code")
+
+[![Erman HAVUÇ](https://avatars.githubusercontent.com/u/29822518?v=4?s=100)  
+**Erman HAVUÇ**](https://github.com/ermanhavuc)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=ermanhavuc "Code")
+
+[![HeZzz](https://avatars.githubusercontent.com/u/142383180?v=4?s=100)  
+**HeZzz**](https://github.com/HeZ2z)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=HeZ2z "Code")
+
+[![Qiaoyi Li](https://avatars.githubusercontent.com/u/76148131?v=4?s=100)  
+**Qiaoyi Li**](https://github.com/Qiaoyi-Li)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Qiaoyi-Li "Code")
+
+[![Birarpanjot Singh Kanwer](https://avatars.githubusercontent.com/u/35032317?v=4?s=100)  
+**Birarpanjot Singh Kanwer**](https://arpankanwer.ai.studio/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=arpankanwer "Code")
+
+[![s4kura](https://avatars.githubusercontent.com/u/126048986?v=4?s=100)  
+**s4kura**](https://github.com/Iams4kura)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Iams4kura "Code")
+
+[![落花有意](https://avatars.githubusercontent.com/u/20168947?v=4?s=100)  
+**落花有意**](https://github.com/zjm54321)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=zjm54321 "Code")
+
+[![JoJohanse](https://avatars.githubusercontent.com/u/97782983?v=4?s=100)  
+**JoJohanse**](https://github.com/JoJohanse)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=JoJohanse "Code")
+
+[![Alfiegerner](https://avatars.githubusercontent.com/u/596188?v=4?s=100)  
+**Alfiegerner**](https://github.com/Alfiegerner)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Alfiegerner "Code")
+
+[![Maxime Leduc](https://avatars.githubusercontent.com/u/37900355?v=4?s=100)  
+**Maxime Leduc**](https://github.com/leducmaxime)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=leducmaxime "Code")
+
+[![Victor M. Varela](https://avatars.githubusercontent.com/u/11040851?v=4?s=100)  
+**Victor M. Varela**](https://github.com/vmvarela)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=vmvarela "Code")
+
+[![gitslim](https://avatars.githubusercontent.com/u/24612825?v=4?s=100)  
+**gitslim**](https://github.com/gitslim)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=gitslim "Code")
+
+[![xiaolf0813](https://avatars.githubusercontent.com/u/314566924?v=4?s=100)  
+**xiaolf0813**](https://github.com/xiaolf0813)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=xiaolf0813 "Code")
+
+[![BaconDroid](https://avatars.githubusercontent.com/u/11067111?v=4?s=100)  
+**BaconDroid**](https://github.com/BaconDroid)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=BaconDroid "Code")
+
+[![Enoch](https://avatars.githubusercontent.com/u/277080233?v=4?s=100)  
+**Enoch**](https://sprightly-strudel-e1f939.netlify.app/)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=bferanmi806-sketch "Code")
+
+[![Albert Chang](https://avatars.githubusercontent.com/u/9391933?v=4?s=100)  
+**Albert Chang**](https://github.com/mxalbert1996)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=mxalbert1996 "Code")
+
+[![Aveer](https://avatars.githubusercontent.com/u/84144527?v=4?s=100)  
+**Aveer**](https://github.com/Aveer)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Aveer "Code")
+
+[![Mohammad](https://avatars.githubusercontent.com/u/480468?v=4?s=100)  
+**Mohammad**](https://github.com/Amm1rr)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=Amm1rr "Code")
+
+[![Shivang Kumar](https://avatars.githubusercontent.com/u/89011717?v=4?s=100)  
+**Shivang Kumar**](https://github.com/kumar-shivang)  
+[💻](https://github.com/alvinunreal/oh-my-opencode-slim/commits?author=kumar-shivang "Code")
+
+---
+
+## 📄 License
+
+[](#-license)
+
+MIT
+
+---
+
+## About
+
+Lean, fine tuned Opencode multi agent suite · Mix any models · Auto delegate tasks
+
+[ohmyopencodeslim.com](https://ohmyopencodeslim.com)
+
+### Topics
+
+[agentic-ai](/topics/agentic-ai)[oh-my-opencode](/topics/oh-my-opencode)[opencode](/topics/opencode)[orchestration](/topics/orchestration)
+
+### Resources
+
+[Readme](#readme-ov-file)
+
+[MIT license](#MIT-1-ov-file)
+
+### Security policy
+
+[Security policy](#security-ov-file)
+
+[Activity](/alvinunreal/oh-my-opencode-slim/activity)
+
+### Stars
+
+**8.9k** stars
+
+### Watchers
+
+**34** watching
+
+### Forks
+
+[**531** forks](/alvinunreal/oh-my-opencode-slim/forks)
+
+[Report repository](/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Falvinunreal%2Foh-my-opencode-slim&report=alvinunreal+%28user%29)
+
+## Releases
+
+## Contributors
+
+## Languages
+
+## Footer
+
+[](https://github.com)© 2026 GitHub, Inc.
+
+### Footer navigation
+
+-   [Terms](https://docs.github.com/site-policy/github-terms/github-terms-of-service)
+-   [Privacy](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
+-   [Security](https://github.com/security)
+-   [Status](https://www.githubstatus.com/)
+-   [Community](https://github.community/)
+-   [Docs](https://docs.github.com/)
+-   [Contact](https://support.github.com?tags=dotcom-footer)
+-   Manage cookies
+-   Do not share my personal information
+
+You can’t perform that action at this time.

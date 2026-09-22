@@ -1,0 +1,37 @@
+0 verbose cli /opt/node/bin/node /usr/local/bin/npm
+1 info using npm@11.19.0
+2 info using node@v24.21.0
+3 silly config load:file:/opt/node/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/rizky/.npmrc
+5 silly config load:file:/opt/node/etc/npmrc
+6 verbose title npm view @vercel/mcp-server
+7 verbose argv "view" "@vercel/mcp-server"
+8 verbose logfile logs-max:10 dir:/home/rizky/.npm/_logs/2026-09-22T09_33_14_804Z-
+9 verbose logfile /home/rizky/.npm/_logs/2026-09-22T09_33_14_804Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 404 https://registry.npmjs.org/@vercel%2fmcp-server 575ms (cache skip)
+12 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@vercel%2fmcp-server - Not found
+12 verbose stack     at /opt/node/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:103:15
+12 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+12 verbose stack     at async RegistryFetcher.packument (/opt/node/lib/node_modules/npm/node_modules/pacote/lib/registry.js:90:19)
+12 verbose stack     at async #getData (/opt/node/lib/node_modules/npm/lib/commands/view.js:133:20)
+12 verbose stack     at async #viewPackage (/opt/node/lib/node_modules/npm/lib/commands/view.js:110:28)
+12 verbose stack     at async View.exec (/opt/node/lib/node_modules/npm/lib/commands/view.js:69:5)
+12 verbose stack     at async Npm.exec (/opt/node/lib/node_modules/npm/lib/npm.js:193:9)
+12 verbose stack     at async module.exports (/opt/node/lib/node_modules/npm/lib/cli/entry.js:67:5)
+13 verbose statusCode 404
+14 verbose pkgid @vercel/mcp-server@*
+15 error code E404
+16 error 404 Not Found - GET https://registry.npmjs.org/@vercel%2fmcp-server - Not found
+17 error 404
+18 error 404  The requested resource '@vercel/mcp-server@*' could not be found or you do not have permission to access it.
+19 error 404
+20 error 404 Note that you can also install from a
+21 error 404 tarball, folder, http url, or git url.
+22 verbose cwd /home/rizky
+23 verbose os Linux 6.8.0-138-generic
+24 verbose node v24.21.0
+25 verbose npm  v11.19.0
+26 verbose exit 1
+27 verbose code 1
+28 error A complete log of this run can be found in: /home/rizky/.npm/_logs/2026-09-22T09_33_14_804Z-debug-0.log
